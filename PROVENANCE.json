@@ -1,0 +1,300 @@
+{
+  "scope": "Independent minimal v2 distribution, not the historical archive. All scientific source/trace bytes are preserved except explicitly described portable-path and analysis changes. No original archive is replaced.",
+  "files": [
+    {
+      "path": "experiments/sources/aodv-dpd.h",
+      "source_sha256": "0475b8fd56064a76524551efc71d24a44c320648f7e4d3c8de51490cad085ddd",
+      "sha256": "8a6b64700469a46efa25811da35d6ca5f4e47f15f989e3be902ec0d65b5ebe55",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/sources/aodv-id-cache.h",
+      "source_sha256": "7cf8de51720678f7c5e26d58366e55067f01fd6d1ee14fe278e7e4edc67b467d",
+      "sha256": "593c66129e378f013f25b1dc8cf016179c4070fdf68f857be975b0a3d4d88f09",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/sources/aodv-neighbor.h",
+      "source_sha256": "d9f639360ed408b33a776994405744d9d7c2a4a4912b14179663135f20093afa",
+      "sha256": "1bc09fd16f9356a3274b80dcd161d6a7bf5e5c44f2a482f1431b9651d7e704b1",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/sources/aodv-routing-protocol.h",
+      "source_sha256": "d4b2ffc45b1ef798570cec58848b89b5b864eabb0fb8f34a4819edd7d3f7f8cc",
+      "sha256": "13ecf854baedf1305673b924904632bda7b00d7dc97a888198bb30f451e97cbc",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/sources/aodv-rqueue.h",
+      "source_sha256": "89b47935a300d8c016077472c1e780905657a2cf06565d24704dec3211e05704",
+      "sha256": "eafd1ed9c27a01da31e40e4106d4268246e3176c5ce7f6693c4c2c52c7ab3d3b",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/sources/aodv-rtable.h",
+      "source_sha256": "739bd31faf998a7013a9a6663c583ea022dd132008e159065c18ff5923f0d8a5",
+      "sha256": "9f73e069727d3d19730a863cabe898f0c05e607673d016d6c04faa51f309659e",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/sources/ensemble.cc",
+      "source_sha256": "da76475b96dbe7710f8b258727a6b0a8e3096070845b3c67d1ec525dd251f602",
+      "sha256": "da76475b96dbe7710f8b258727a6b0a8e3096070845b3c67d1ec525dd251f602",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/sources/patch-routing.cc",
+      "source_sha256": "5fb9d4296b0ee1c2e5723b00438f9a4f5634116094e307845ae3395fe80b584c",
+      "sha256": "8d1c88030d57a59980fbdbd65c494182139a325c8cd0dfba493249de9335f5f5",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/sources/stock-routing.cc",
+      "source_sha256": "adec8ac477b288a90a0939887d49e878b341f2ed60590f9844de98dc074e6462",
+      "sha256": "b6e1d6fc848b258e993a6817b2eab5fc8af305fa3c0ea373f066cc08197c444e",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/sources/transitions.cc",
+      "source_sha256": "57da5ae9968ab3018805f419e0b3a3be57ec61024a4f02546e1bcafae628ced2",
+      "sha256": "57da5ae9968ab3018805f419e0b3a3be57ec61024a4f02546e1bcafae628ced2",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/sources/unit.cc",
+      "source_sha256": "d26a6edb08e740dfbc09c5d75ede88bf66e09b6cd00c57d410363e426f8a318c",
+      "sha256": "d26a6edb08e740dfbc09c5d75ede88bf66e09b6cd00c57d410363e426f8a318c",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/temporal_sources/aodv-routing-protocol.h",
+      "source_sha256": "d4b2ffc45b1ef798570cec58848b89b5b864eabb0fb8f34a4819edd7d3f7f8cc",
+      "sha256": "13ecf854baedf1305673b924904632bda7b00d7dc97a888198bb30f451e97cbc",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/temporal_sources/aodv-rtable.h",
+      "source_sha256": "739bd31faf998a7013a9a6663c583ea022dd132008e159065c18ff5923f0d8a5",
+      "sha256": "9f73e069727d3d19730a863cabe898f0c05e607673d016d6c04faa51f309659e",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/temporal_sources/combined.cc",
+      "source_sha256": "60f6e05acf06d3a85fca6f5acff4d09b171850c5e7e40c1e3bc1ac0d8726ed5a",
+      "sha256": "60f6e05acf06d3a85fca6f5acff4d09b171850c5e7e40c1e3bc1ac0d8726ed5a",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/temporal_sources/combined.csv",
+      "source_sha256": "30e0bf7c0c6cefcfef355acb3f7d29e47446f7ff19012999cadcab0607498d6c",
+      "sha256": "30e0bf7c0c6cefcfef355acb3f7d29e47446f7ff19012999cadcab0607498d6c",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/temporal_sources/counterexample.cc",
+      "source_sha256": "8057b087148af5577bf2e41806fd58dec24c08c98a3c7320c7e49f1f8d607135",
+      "sha256": "8057b087148af5577bf2e41806fd58dec24c08c98a3c7320c7e49f1f8d607135",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/temporal_sources/lifecycle-rtable.cc",
+      "source_sha256": "c36a465d1fbb67f3dbbb064604b3befb06a38ff4307049ceec2cf0c9cac920e6",
+      "sha256": "4bcc95704821eb371da04f02efb7ebdbb2df53476505aafc4c9ed4862ad1a7b9",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/temporal_sources/patch-routing.cc",
+      "source_sha256": "d159cd6bf65686a2ce8182c5f6a7c7b2475291adf5d1ba60a31a0efa4125cd0d",
+      "sha256": "c566c2a544a4f54103b39d4a54f875a8f66e87907b06921dd70417a7a836070e",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/temporal_sources/positive.csv",
+      "source_sha256": "af4de31fd7e0cd3f7a7ef76adb581eb1988c2f4b57aeb531004179b194be32ae",
+      "sha256": "af4de31fd7e0cd3f7a7ef76adb581eb1988c2f4b57aeb531004179b194be32ae",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/temporal_sources/retained.csv",
+      "source_sha256": "c5115b4c3643ad3f18216695117f842572696b87c922db0ad1f79cb5a9f284b7",
+      "sha256": "c5115b4c3643ad3f18216695117f842572696b87c922db0ad1f79cb5a9f284b7",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/temporal_sources/stock-routing.cc",
+      "source_sha256": "5c206729ef5a21bd156b488a56023c66235ec325e158a3cad63a85d91b2113f1",
+      "sha256": "cbe2f5b969026b1095aa18cea70e7f792dda45e87ae339b6e876da6c883e17c2",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/temporal_sources/temporal.cc",
+      "source_sha256": "3d7f29747ebddc2076259e69781e53fb68602f03bb9571655e01364b04ec02bc",
+      "sha256": "3d7f29747ebddc2076259e69781e53fb68602f03bb9571655e01364b04ec02bc",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/temporal_sources/unsafe-routing.cc",
+      "source_sha256": "322b2197f9cd85fa1d50a033a885f3ffb7c33c129a0cdd18c03abdc60f4f7349",
+      "sha256": "894a8e3ee292c7e3469c32f4a4cbedaacb462a958aa3841ef493f3a860da39ff",
+      "transformation": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly."
+    },
+    {
+      "path": "experiments/run_temporal.py",
+      "source_sha256": "8e8e3add37d4db2cabe2028e0eea46f9dd033a220b3317a3ca4a3430a0458fbe",
+      "sha256": "8e8e3add37d4db2cabe2028e0eea46f9dd033a220b3317a3ca4a3430a0458fbe",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/run_counterexample.py",
+      "source_sha256": "28b213cfcdf1cf5b62b210157e85b2dc0a3b29f1c9062e7566e46afd7acef932",
+      "sha256": "28b213cfcdf1cf5b62b210157e85b2dc0a3b29f1c9062e7566e46afd7acef932",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/run_combined.py",
+      "source_sha256": "bdc28890fe42d845f64dbe94ee5fd8ce5cedb5d69c3f1a93de5d7e2f9c65e64e",
+      "sha256": "bdc28890fe42d845f64dbe94ee5fd8ce5cedb5d69c3f1a93de5d7e2f9c65e64e",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/run_handler_checks.py",
+      "source_sha256": "420695bde37114f853f78025f445601d7a73165f6e1f95038d7ef03fbb14cd4b",
+      "sha256": "420695bde37114f853f78025f445601d7a73165f6e1f95038d7ef03fbb14cd4b",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/analyze_ensemble.py",
+      "source_sha256": "8f5096d3c6acf046804c882cb7265f6e8f196006089069f4086370306b449385",
+      "sha256": "8f5096d3c6acf046804c882cb7265f6e8f196006089069f4086370306b449385",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/run_ensemble.py",
+      "source_sha256": "2d34d6892007a90af02a5877e134387693d98766a508887a2087f6ce1242d4ae",
+      "sha256": "ebdba0e4e385547c85c51cdf89cc46c56e7195533469ae01938803a181a86959",
+      "transformation": "Replace historical absolute-path lookup with bundled relative mobility manifest; jobs and simulation settings unchanged."
+    },
+    {
+      "path": "experiments/mobility/original1.csv",
+      "source_sha256": "495b20a43b99759f87831308e8fcfd0ab375dcab931d7ea53770cb29494a0209",
+      "sha256": "495b20a43b99759f87831308e8fcfd0ab375dcab931d7ea53770cb29494a0209",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/mobility/rwp1.csv",
+      "source_sha256": "3e5bd155a0f6255339ee01fee74d2f2294e650d5f2caa6afb2f8ec06441f6f83",
+      "sha256": "3e5bd155a0f6255339ee01fee74d2f2294e650d5f2caa6afb2f8ec06441f6f83",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/mobility/original2.csv",
+      "source_sha256": "a6f898b6ad5b8bad1b28021a25849a3c44ccfd98c2f776137133eae5adc719e0",
+      "sha256": "a6f898b6ad5b8bad1b28021a25849a3c44ccfd98c2f776137133eae5adc719e0",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/mobility/rwp2.csv",
+      "source_sha256": "b30990dcfa661cc7f5b8c0cffb74013720000608b30e20bcd5619243fe637af4",
+      "sha256": "b30990dcfa661cc7f5b8c0cffb74013720000608b30e20bcd5619243fe637af4",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/mobility/original3.csv",
+      "source_sha256": "545066bf8388b81ab90af11b6760614f61fb6b7976d774ca4a8df65691821f0d",
+      "sha256": "545066bf8388b81ab90af11b6760614f61fb6b7976d774ca4a8df65691821f0d",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/mobility/rwp3.csv",
+      "source_sha256": "a767424562c8fcca12d86190b36ec623fa42a220f5df1c8fcd8846411e6fdd25",
+      "sha256": "a767424562c8fcca12d86190b36ec623fa42a220f5df1c8fcd8846411e6fdd25",
+      "transformation": "none"
+    },
+    {
+      "path": "analysis/analyze_temporal.py",
+      "source_sha256": "2112462092b389f162fdabf9e4595823d75a61701a0d743ff69aa1d59836200b",
+      "sha256": "2112462092b389f162fdabf9e4595823d75a61701a0d743ff69aa1d59836200b",
+      "transformation": "none"
+    },
+    {
+      "path": "analysis/strict_returns.py",
+      "source_sha256": "69497a358ca2c03bccba21be4b5a2537d3b63664584f619dfa6ae5ca2eb85e26",
+      "sha256": "69497a358ca2c03bccba21be4b5a2537d3b63664584f619dfa6ae5ca2eb85e26",
+      "transformation": "none"
+    },
+    {
+      "path": "analysis/test_strict_returns.py",
+      "source_sha256": "146c8275df7371fbd0a973d0d96382a2ca4264ea4808e8d52a36f530fc5ca189",
+      "sha256": "146c8275df7371fbd0a973d0d96382a2ca4264ea4808e8d52a36f530fc5ca189",
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/smoke_fixtures.py",
+      "source_sha256": "d2ac744006757fadf6733861b2a70c7cedccf7aba02a899f26519253a13a81b9",
+      "sha256": "2d4e25b9ee5245f3e66be7d651944bc5f2a5221eca23cfaa214a506e0d4d66c3",
+      "transformation": "Replace old RX-only smoke check with v2 strict TX/RX/TTL predicate; omit local working directory from report."
+    },
+    {
+      "path": "patches/ns-3.47-invalid-only.patch",
+      "source_sha256": "46393bd9ff285444c25f22b6518be1d68523d03cc26397aa4fce1f0d2d41d226",
+      "sha256": "46393bd9ff285444c25f22b6518be1d68523d03cc26397aa4fce1f0d2d41d226",
+      "transformation": "none"
+    },
+    {
+      "path": "LICENSES/GPL-2.0-only.txt",
+      "source_sha256": "e01cda1cbedde03ba8154ecbdea6b42c14dd330eef498b462f97ca781b027b6e",
+      "sha256": "e01cda1cbedde03ba8154ecbdea6b42c14dd330eef498b462f97ca781b027b6e",
+      "transformation": "none"
+    },
+    {
+      "path": "reference/temporal_extended_summary.csv",
+      "source_sha256": "91495a9fba8d758c0e1f46612a3a4e7c0966b5d9cea80cbbc1f85474492a12a1",
+      "sha256": "91495a9fba8d758c0e1f46612a3a4e7c0966b5d9cea80cbbc1f85474492a12a1",
+      "transformation": "none"
+    },
+    {
+      "path": "reference/counterexample_summary.csv",
+      "source_sha256": "abf4118ef223ae00fdc9e42c0f880713d8610b636fe92d9de3c631b69f37d19b",
+      "sha256": "abf4118ef223ae00fdc9e42c0f880713d8610b636fe92d9de3c631b69f37d19b",
+      "transformation": "none"
+    },
+    {
+      "path": "reference/combined_summary.csv",
+      "source_sha256": "ee9d459b6e4fa95b289fa231aa5967d06febe4b9946c436ffed7d5fd7984996a",
+      "sha256": "ee9d459b6e4fa95b289fa231aa5967d06febe4b9946c436ffed7d5fd7984996a",
+      "transformation": "none"
+    },
+    {
+      "path": "reference/recovery_windows.csv",
+      "source_sha256": "b59359682ce4a1b137cea2d36824e74bb838a2f40ea511ae9d54968604259dc9",
+      "sha256": "b59359682ce4a1b137cea2d36824e74bb838a2f40ea511ae9d54968604259dc9",
+      "transformation": "none"
+    },
+    {
+      "path": "reference/TEMPORAL_EXTENDED.json",
+      "source_sha256": "3f9544d3567a6db236d57ae1427e735c7be2cd90dff2fcb60b8b9f605ac6ceae",
+      "sha256": "3f9544d3567a6db236d57ae1427e735c7be2cd90dff2fcb60b8b9f605ac6ceae",
+      "transformation": "none"
+    },
+    {
+      "path": "reference/paired_runs.csv",
+      "source_sha256": "ee9eaba6cc14a9cb205e3fbbfbf205d22244c223d102b619e525522fdee80878",
+      "sha256": "ee9eaba6cc14a9cb205e3fbbfbf205d22244c223d102b619e525522fdee80878",
+      "transformation": "none"
+    },
+    {
+      "path": "reference/ensemble_summary.csv",
+      "source_sha256": "7c4140a1976bdc9a121a6b7a4d5f4e0ac187b950e4f2930184fc02fda6f67f29",
+      "sha256": "7c4140a1976bdc9a121a6b7a4d5f4e0ac187b950e4f2930184fc02fda6f67f29",
+      "transformation": "none"
+    },
+    {
+      "path": "reference/ensemble_summary.json",
+      "source_sha256": "1adc993546424734087cbcb14ed575aa45c994f3385e8626487b29c7fd795809",
+      "sha256": "1adc993546424734087cbcb14ed575aa45c994f3385e8626487b29c7fd795809",
+      "transformation": "none"
+    }
+  ],
+  "release_modification_notices": "Version 2.0.0 adds comment-only dated GPL notices to modified upstream-derived source files. Executable scientific content is preserved. See MODIFICATIONS.md."
+}

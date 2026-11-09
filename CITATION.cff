@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite this versioned reproducibility package if you use the software or data."
+title: "Retained Invalid Routes Can Suppress Route Discovery in ns-3 AODV: minimal reproducibility package"
+type: software
+version: 2.0.0
+date-released: 2026-11-09
+repository-code: "https://github.com/seongchu-afk/ns3-aodv-retained-invalid-repro"
+doi: 10.5281/zenodo.23827740
+authors:
+  - family-names: Zhang
+    given-names: Xingqiu
+    affiliation: "Kookmin University; Fuzhou Technology and Business University"
+  - family-names: Lin
+    given-names: Guofeng
+    affiliation: Xiamen Huaxia University
+  - family-names: Wang
+    given-names: Daotong
+    affiliation: Yango University
+  - family-names: Kim
+    given-names: Sang-Chul
+    affiliation: Kookmin University
+license:
+  - GPL-2.0-only
+  - CC-BY-4.0
+keywords:
+  - ns-3
+  - AODV
+  - route discovery
+  - reproducibility
+abstract: "Minimal reproducibility materials for the ns-3.47 retained-INVALID-route study. Code is GPL-2.0-only; original data and documentation are CC-BY-4.0. These are separately scoped licenses, not a dual-license choice. See the archive notices for scope and preserved third-party terms."

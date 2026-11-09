@@ -1,0 +1,65 @@
+{
+  "date_utc": "2026-11-09",
+  "status": "passed within the listed scope",
+  "python": "3.12.14",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "dependencies": {
+    "cmake": "4.4.4",
+    "ninja": "1.13.2",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "official_archive_sha256": "8b3adca956c834ea436b915986ab8fd053e90041acae7426895d595aaa3ccc39",
+  "fresh_upstream_build": {
+    "new_extraction": true,
+    "reused_historical_binaries": false,
+    "pinned_dependencies_freshly_installed": true,
+    "ns3_libraries_only_from_clean_tree": true
+  },
+  "v2_entrypoint_sha256": "a525af100cdac5a49dc767821c91cc45124e418f7a321651eec3cd555db61d34",
+  "analysis": {
+    "strict_return_unit_tests": 15,
+    "temporal_natural_combined_cases": 195,
+    "ensemble_per_run_records": 240,
+    "reference_outputs_byte_equal": 8
+  },
+  "fresh_revision_simulation": {
+    "temporal_natural_combined_cases": 195,
+    "scientific_csvs_byte_equal_to_original": 975,
+    "handler_reference_csvs_byte_equal": 12,
+    "ensemble_smoke_simulations": 2,
+    "ensemble_scalar_values_matching_reference": 20,
+    "natural_baseline_delivery": [
+      0,
+      4
+    ],
+    "temporal_baseline_stock_patch_unsafe_delivery": [
+      195,
+      195,
+      271
+    ],
+    "unsafe_baseline_strict_return_identities": 32,
+    "full_240_ensemble_rerun": false
+  },
+  "original_manuscript_fresh_base": {
+    "S1_handler_checks": 198,
+    "S2": "Unchanged settings table, not a generated result.",
+    "S3_critical_trace_files_byte_equal_to_original": 8,
+    "S4_paired_environments": 6,
+    "S4_regenerated_csv_byte_equal": true,
+    "optional_new_queue_observer_enabled": false
+  },
+  "provenance_limitations": [
+    "Original S3 additional queue-observer source and direct trace were not recovered.",
+    "A separately labelled optional new observer reproduced 31 FIFO evictions and 64 retry-exhaustion drops against the existing pinned base. It is not the recovered original observer and was not used for the fresh original-source validation.",
+    "All 240 revision ensemble measurements were reanalyzed; only one stock/patch pair of that revision ensemble was freshly rerun. This is not a full 435-run revision rerun.",
+    "The separate original S4 six paired environments were all freshly rerun and are not counted as the 240-run revision ensemble."
+  ],
+  "release_finalization": {
+    "version": "2.0.0",
+    "scientific_code_change": "none; dated comment-only modification notices added to modified ns-3-derived files",
+    "scientific_csv_change": "none",
+    "analysis_revalidated_after_finalization": true,
+    "reference_outputs_byte_equal_after_finalization": 8
+  }
+}
