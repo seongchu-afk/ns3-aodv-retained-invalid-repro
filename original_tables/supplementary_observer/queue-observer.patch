@@ -1,0 +1,36 @@
+--- a/src/aodv/model/aodv-rqueue.cc
++++ b/src/aodv/model/aodv-rqueue.cc
+@@ -14,6 +14,12 @@
+  *          Pavel Boyko <boyko@iitp.ru>
+  */
+ #include "aodv-rqueue.h"
++#include "ns3/simulator.h"
++#include "ns3/udp-header.h"
++#include "ns3/seq-ts-header.h"
++#include <fstream>
++#include <iomanip>
++#include <cstdlib>
+ 
+ #include "ns3/ipv4-route.h"
+ #include "ns3/log.h"
+@@ -139,6 +145,20 @@
+ void
+ RequestQueue::Drop(QueueEntry en, std::string reason)
+ {
++    // Supplementary read-only observer. Copy the packet before decoding headers.
++    if (const char* path = std::getenv("MANET_QUEUE_TRACE"))
++    {
++        static std::ofstream trace(path);
++        static bool header = false;
++        if (!header) { trace << "time,source,destination,uid,sequence,reason\n"; header = true; }
++        auto packet = en.GetPacket()->Copy();
++        UdpHeader udp; SeqTsHeader seq;
++        packet->RemoveHeader(udp); packet->RemoveHeader(seq);
++        trace << std::setprecision(15) << Simulator::Now().GetSeconds() << ","
++              << en.GetIpv4Header().GetSource() << "," << en.GetIpv4Header().GetDestination()
++              << "," << en.GetPacket()->GetUid() << "," << seq.GetSeq() << "," << reason << "\n";
++    }
++
+     NS_LOG_LOGIC(reason << en.GetPacket()->GetUid() << " " << en.GetIpv4Header().GetDestination());
+     en.GetErrorCallback()(en.GetPacket(), en.GetIpv4Header(), Socket::ERROR_NOROUTETOHOST);
+ }
