@@ -1,0 +1,62 @@
+[
+  {
+    "test": "strict_return",
+    "passed": true
+  },
+  {
+    "test": "no_prior_tx",
+    "passed": true
+  },
+  {
+    "test": "same_timestamp_not_earlier",
+    "passed": true
+  },
+  {
+    "test": "ttl_equal",
+    "passed": true
+  },
+  {
+    "test": "ttl_increased",
+    "passed": true
+  },
+  {
+    "test": "tx_loopback",
+    "passed": true
+  },
+  {
+    "test": "rx_loopback",
+    "passed": true
+  },
+  {
+    "test": "different_node",
+    "passed": true
+  },
+  {
+    "test": "different_ipv4_id",
+    "passed": true
+  },
+  {
+    "test": "different_app_seq",
+    "passed": true
+  },
+  {
+    "test": "different_flow",
+    "passed": true
+  },
+  {
+    "test": "different_destination",
+    "passed": true
+  },
+  {
+    "test": "uid_auxiliary_only",
+    "passed": true
+  },
+  {
+    "test": "two_returns_one_identity",
+    "passed": true
+  },
+  {
+    "test": "general_forwarding_node",
+    "passed": true
+  }
+]
