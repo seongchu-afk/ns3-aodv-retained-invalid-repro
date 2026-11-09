@@ -1,0 +1,10 @@
+case,config,version,run,sent,received,first_rx,last_rx,retained_invalid_qualified,concurrent_search_observed,artificial_perturbation_qualified
+retained_concurrent-patch-1,retained_concurrent,patch,1,200,200,18.526787029,38.402664699,True,True,
+retained_concurrent-patch-2,retained_concurrent,patch,2,200,200,18.524570563,38.402664699,True,True,
+retained_concurrent-patch-3,retained_concurrent,patch,3,200,200,18.528670563,38.402664699,True,True,
+retained_concurrent-stock-1,retained_concurrent,stock,1,200,98,28.870387029,38.402664699,True,True,
+retained_concurrent-stock-2,retained_concurrent,stock,2,200,98,28.860830563,38.402664699,True,True,
+retained_concurrent-stock-3,retained_concurrent,stock,3,200,98,28.868010563,38.402664699,True,True,
+retained_concurrent-unsafe-1,retained_concurrent,unsafe,1,200,200,18.526787029,38.402664699,True,True,
+retained_concurrent-unsafe-2,retained_concurrent,unsafe,2,200,200,18.524570563,38.402664699,True,True,
+retained_concurrent-unsafe-3,retained_concurrent,unsafe,3,200,200,18.528670563,38.402664699,True,True,

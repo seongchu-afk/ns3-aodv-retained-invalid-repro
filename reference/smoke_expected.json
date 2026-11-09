@@ -1,0 +1,26 @@
+{
+  "stock": {
+    "planned": 5985,
+    "received": 5893,
+    "pdr": 0.9846282372598162,
+    "control_bytes": 630980,
+    "control_frames": 7509,
+    "control_airtime_ns": 1069062000,
+    "retry_frames": 735,
+    "app_window_control_bytes": 440700,
+    "app_window_control_frames": 5243,
+    "app_window_control_airtime_ns": 747342000
+  },
+  "patch": {
+    "planned": 5985,
+    "received": 5844,
+    "pdr": 0.9764411027568922,
+    "control_bytes": 636976,
+    "control_frames": 7601,
+    "control_airtime_ns": 1080298000,
+    "retry_frames": 650,
+    "app_window_control_bytes": 445912,
+    "app_window_control_frames": 5325,
+    "app_window_control_airtime_ns": 757214000
+  }
+}
