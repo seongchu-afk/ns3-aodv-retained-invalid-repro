@@ -1,0 +1,7 @@
+case,seed,version,invalidation_s,invalidation_action,delete_s,main_at_s,first_B_lookup_s,actual_B_state
+retained,1,stock,12.056376466,rerr_after_invalidate,27.073192233,18.5,18.500200233,INVALID
+retained,2,stock,12.020192233,purge_after_invalidate,27.022192233,18.5,18.505200233,INVALID
+retained,3,stock,12.012192233,purge_after_invalidate,27.982192233,18.5,18.508200233,INVALID
+after_delete,1,stock,12.056376466,rerr_after_invalidate,27.073192233,35.5,35.505200233,ABSENT
+after_delete,2,stock,12.020192233,purge_after_invalidate,27.022192233,35.5,35.501200233,ABSENT
+after_delete,3,stock,12.012192233,purge_after_invalidate,27.069192233,35.5,35.501200233,ABSENT

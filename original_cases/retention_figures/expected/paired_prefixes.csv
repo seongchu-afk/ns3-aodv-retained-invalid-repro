@@ -1,0 +1,13 @@
+case,seed,pre_main_control_exact_equal,pre_main_application_exact_equal
+retained,1,True,True
+retained,2,True,True
+retained,3,True,True
+after_delete,1,True,True
+after_delete,2,True,True
+after_delete,3,True,True
+cold,1,True,True
+cold,2,True,True
+cold,3,True,True
+second,1,True,True
+second,2,True,True
+second,3,True,True

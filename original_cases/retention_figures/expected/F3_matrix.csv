@@ -1,0 +1,13 @@
+case,seed,planned_per_implementation,stock_received,patch_received
+retained,1,4,0,4
+retained,2,4,0,4
+retained,3,4,0,4
+after_delete,1,4,4,4
+after_delete,2,4,3,3
+after_delete,3,4,3,3
+cold,1,4,4,4
+cold,2,4,4,4
+cold,3,4,4,4
+second,1,4,0,4
+second,2,4,0,4
+second,3,4,0,4

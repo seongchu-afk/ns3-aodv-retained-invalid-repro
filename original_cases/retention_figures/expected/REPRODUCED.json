@@ -1,0 +1,33 @@
+{
+  "total_runs": 24,
+  "whole_run_pairs": 12,
+  "all_state_and_packet_checks_pass": true,
+  "all_paired_prefixes_exact": true,
+  "original_summary_exact": true,
+  "original_matrix_bytes_exact": true,
+  "original_raw_csv_compared": 120,
+  "original_raw_csv_exact": 120,
+  "diagnostic_patch_retention_wait_ms_min": 14.531029000000473,
+  "diagnostic_patch_retention_wait_ms_max": 43.913125999999636,
+  "timeline_invalidation_actions": [
+    "purge_after_invalidate",
+    "rerr_after_invalidate"
+  ],
+  "pass_all": true,
+  "limitations": [
+    "Four packets within a run are not independent replications.",
+    "Undelivered through 60 s is right-censored, not permanent failure.",
+    "Run 1 invalidates via RERR; runs 2 and 3 invalidate during purge.",
+    "The six first-packet timing records are the two retention motifs with INVALID-only, not cold-start or post-deletion runs."
+  ],
+  "validation_date": "2026-11-09",
+  "executions_completed": 24,
+  "all_exit_codes_zero": true,
+  "clean_base_libraries_unchanged": true,
+  "research_binaries_reused": false,
+  "new_aodv_translation_units": 9,
+  "reuse_scope": "Pristine official ns-3.47 optimized non-AODV shared libraries only; complete AODV libraries and observer compiled afresh.",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "build_profile": "optimized",
+  "tested_build_route": "--ns3 with previously clean-built official archive base; --archive bootstrap documented but not repeated for this module"
+}
