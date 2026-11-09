@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "rng_seed": 20261030,
+  "rng_run_indices": [
+    1,
+    2,
+    3
+  ],
+  "wifi_stream_start": 1000,
+  "routing_stream_start": 2000,
+  "protocol": "AODV",
+  "arp_dead_timeout_s": 3,
+  "diagnostic": 1,
+  "simulation_stop_s": 60,
+  "main_packets_per_run": 4,
+  "packet_bytes": 512,
+  "packet_interval_s": 0.1,
+  "jobs": [
+    {
+      "case": "retained",
+      "seed": 1,
+      "version": "stock",
+      "mainAt": 18.5
+    },
+    {
+      "case": "retained",
+      "seed": 1,
+      "version": "patch",
+      "mainAt": 18.5
+    },
+    {
+      "case": "retained",
+      "seed": 2,
+      "version": "stock",
+      "mainAt": 18.5
+    },
+    {
+      "case": "retained",
+      "seed": 2,
+      "version": "patch",
+      "mainAt": 18.5
+    },
+    {
+      "case": "retained",
+      "seed": 3,
+      "version": "stock",
+      "mainAt": 18.5
+    },
+    {
+      "case": "retained",
+      "seed": 3,
+      "version": "patch",
+      "mainAt": 18.5
+    },
+    {
+      "case": "after_delete",
+      "seed": 1,
+      "version": "stock",
+      "mainAt": 35.5
+    },
+    {
+      "case": "after_delete",
+      "seed": 1,
+      "version": "patch",
+      "mainAt": 35.5
+    },
+    {
+      "case": "after_delete",
+      "seed": 2,
+      "version": "stock",
+      "mainAt": 35.5
+    },
+    {
+      "case": "after_delete",
+      "seed": 2,
+      "version": "patch",
+      "mainAt": 35.5
+    },
+    {
+      "case": "after_delete",
+      "seed": 3,
+      "version": "stock",
+      "mainAt": 35.5
+    },
+    {
+      "case": "after_delete",
+      "seed": 3,
+      "version": "patch",
+      "mainAt": 35.5
+    },
+    {
+      "case": "cold",
+      "seed": 1,
+      "version": "stock",
+      "mainAt": 18.5
+    },
+    {
+      "case": "cold",
+      "seed": 1,
+      "version": "patch",
+      "mainAt": 18.5
+    },
+    {
+      "case": "cold",
+      "seed": 2,
+      "version": "stock",
+      "mainAt": 18.5
+    },
+    {
+      "case": "cold",
+      "seed": 2,
+      "version": "patch",
+      "mainAt": 18.5
+    },
+    {
+      "case": "cold",
+      "seed": 3,
+      "version": "stock",
+      "mainAt": 18.5
+    },
+    {
+      "case": "cold",
+      "seed": 3,
+      "version": "patch",
+      "mainAt": 18.5
+    },
+    {
+      "case": "second",
+      "seed": 1,
+      "version": "stock",
+      "mainAt": 18.5
+    },
+    {
+      "case": "second",
+      "seed": 1,
+      "version": "patch",
+      "mainAt": 18.5
+    },
+    {
+      "case": "second",
+      "seed": 2,
+      "version": "stock",
+      "mainAt": 18.5
+    },
+    {
+      "case": "second",
+      "seed": 2,
+      "version": "patch",
+      "mainAt": 18.5
+    },
+    {
+      "case": "second",
+      "seed": 3,
+      "version": "stock",
+      "mainAt": 18.5
+    },
+    {
+      "case": "second",
+      "seed": 3,
+      "version": "patch",
+      "mainAt": 18.5
+    }
+  ],
+  "total_runs": 24
+}
