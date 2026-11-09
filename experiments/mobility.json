@@ -1,0 +1,38 @@
+[
+  {
+    "name": "original1",
+    "family": "original",
+    "path": "mobility/original1.csv",
+    "sha256": "495b20a43b99759f87831308e8fcfd0ab375dcab931d7ea53770cb29494a0209"
+  },
+  {
+    "name": "rwp1",
+    "family": "rwp",
+    "path": "mobility/rwp1.csv",
+    "sha256": "3e5bd155a0f6255339ee01fee74d2f2294e650d5f2caa6afb2f8ec06441f6f83"
+  },
+  {
+    "name": "original2",
+    "family": "original",
+    "path": "mobility/original2.csv",
+    "sha256": "a6f898b6ad5b8bad1b28021a25849a3c44ccfd98c2f776137133eae5adc719e0"
+  },
+  {
+    "name": "rwp2",
+    "family": "rwp",
+    "path": "mobility/rwp2.csv",
+    "sha256": "b30990dcfa661cc7f5b8c0cffb74013720000608b30e20bcd5619243fe637af4"
+  },
+  {
+    "name": "original3",
+    "family": "original",
+    "path": "mobility/original3.csv",
+    "sha256": "545066bf8388b81ab90af11b6760614f61fb6b7976d774ca4a8df65691821f0d"
+  },
+  {
+    "name": "rwp3",
+    "family": "rwp",
+    "path": "mobility/rwp3.csv",
+    "sha256": "a767424562c8fcca12d86190b36ec623fa42a220f5df1c8fcd8846411e6fdd25"
+  }
+]
