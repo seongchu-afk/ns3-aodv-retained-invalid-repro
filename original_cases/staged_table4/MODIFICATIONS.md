@@ -1,0 +1,9 @@
+# Source identity and modifications
+
+On 2026-11-09 a prominent comment-only identification notice was prepended to each of the eight files in `sources/`: observer.cc, expiry-observer.cc, stock-routing.cc, patch-routing.cc, unsafe-routing.cc, lifecycle-rtable.cc, aodv-routing-protocol.h and aodv-rtable.h. Every preceding scientific source byte remains unchanged after that notice. The date identifies this packaging change, not the date of earlier scientific work. Original upstream copyright, author and GPL notices remain intact. PROVENANCE.json records input and distributed hashes and the original frozen-source hash checks.
+
+The research files contain pre-existing experiment instrumentation, diagnostic access, lifecycle callbacks, controlled fixture logic and routing-guard variants. Stock retains the stock guard; patch applies the INVALID-only exemption; unsafe removes the guard as a negative safety control. The unsafe variant is not a proposed production fix. The expiry harness supports the supplementary four-packet expiry fixture. These are not pristine upstream ns-3 files.
+
+The Python build, run, analysis and entry-point scripts are new portable implementations dated 2026-11-09. They replace machine-dependent historical orchestration without altering the C++ scientific sources or fixed settings. `analysis/strict_returns.py` is copied byte-for-byte from the version-2.0.0 strict matcher. The analyzer explicitly distinguishes datagrams from node-plus-datagram counts. Synthetic tests cover its rejection boundaries and cycle handling.
+
+All three mobility inputs and all 96 included original trace CSVs are byte-identical copies. Historical summary and qualification records are unchanged. Table4_expected.csv is a 12-row expansion of the manuscript's four grouped rows, with exact original cycle-duration values. No measurements were edited, normalized, regenerated into reference files or fabricated.

@@ -1,0 +1,175 @@
+{
+  "version": "2.0.1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 39,
+      "sha256": "4e483ca8d602f9736fe7783391792652253f3c6b34103df6f144dd2b6dda4f97"
+    },
+    {
+      "path": "EVIDENCE_INVENTORY.md",
+      "bytes": 1818,
+      "sha256": "477d1755eb0cd913a1da31ef9e33e1fb661209a30dc8e702a0761b3d37682b11"
+    },
+    {
+      "path": "FILE_LIST.txt",
+      "bytes": 708,
+      "sha256": "cb86d7355d7d84438bed2b1397fd0de4289252989edd740268576250f44a9382"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 18283,
+      "sha256": "e01cda1cbedde03ba8154ecbdea6b42c14dd330eef498b462f97ca781b027b6e"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0-NOTICE.txt",
+      "bytes": 692,
+      "sha256": "42d006c068f90b6e3b25961342cb614d8b588e8bbdc2eeaa80f2983ef8bc94c1"
+    },
+    {
+      "path": "LICENSES/GPL-2.0-only.txt",
+      "bytes": 18283,
+      "sha256": "e01cda1cbedde03ba8154ecbdea6b42c14dd330eef498b462f97ca781b027b6e"
+    },
+    {
+      "path": "LICENSES/NOTICE.md",
+      "bytes": 1293,
+      "sha256": "54ec8ac4fb09e4109899f06599d2954d4ac4cb7f66d4b3fa03df24347678d6c3"
+    },
+    {
+      "path": "MODIFICATIONS.md",
+      "bytes": 1924,
+      "sha256": "ac42f2072aba51c7a12540ddca58b3ee5442af40d98bda535aff5dfac3fccdbb"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 44803,
+      "sha256": "162d277526d26900b037a9ccab4863c6b96bc10b3263584b855c9140adff60d6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7823,
+      "sha256": "e5c5d9365c70fa95aa81853963af19c90738906b01984a7722d5b9ebdb373e16"
+    },
+    {
+      "path": "REPRODUCE.py",
+      "bytes": 1583,
+      "sha256": "334fda1ecf7e4221cc24cefc02673d603d1fb392641cbf186edfcd5e2c492bb8"
+    },
+    {
+      "path": "SHA256SUMS",
+      "bytes": 2875,
+      "sha256": "58f8bb6c9bffae1925aac26cb9cdb7c6be16de78103ee6d6d80ed2a7cfb49d6f"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 5923,
+      "sha256": "b3e8f705015c1a3c8af33f9a71a656de961921f9c6d7f6d037c9f7b0efd90ba3"
+    },
+    {
+      "path": "analysis/strict_returns.py",
+      "bytes": 2981,
+      "sha256": "69497a358ca2c03bccba21be4b5a2537d3b63664584f619dfa6ae5ca2eb85e26"
+    },
+    {
+      "path": "analyze.py",
+      "bytes": 12073,
+      "sha256": "3b95ca04edf50bfa8adbbc4ba72b0ae18c8d75574ea899ce3817cd066a92e3a4"
+    },
+    {
+      "path": "build.py",
+      "bytes": 3352,
+      "sha256": "4a9458703e76ddecb6a2ba36831d41255bf366b0608d42c912044193a0abad74"
+    },
+    {
+      "path": "cases.json",
+      "bytes": 3997,
+      "sha256": "a65db36a6b06533f481de247bf52858d60d2fcb708f6185fd607d21cbca35be2"
+    },
+    {
+      "path": "mobility/expiry.csv",
+      "bytes": 135,
+      "sha256": "d5c13248bd75feb8c892e6aab8ee7bbe85ad17dc00400e1c45ab0e7ac55f336e"
+    },
+    {
+      "path": "mobility/natural.csv",
+      "bytes": 135,
+      "sha256": "9ac7eade8e8b7499dca6572f3ffa3c23f4af4d58e759ecac6ad3557812dab2af"
+    },
+    {
+      "path": "mobility/positive.csv",
+      "bytes": 51,
+      "sha256": "af4de31fd7e0cd3f7a7ef76adb581eb1988c2f4b57aeb531004179b194be32ae"
+    },
+    {
+      "path": "reference/Table4_expected.csv",
+      "bytes": 557,
+      "sha256": "0511ca9288eb60eb20c2aca345816d66b6695827429f198bb0885c95b8fe34ad"
+    },
+    {
+      "path": "reference/historical_QUALIFICATION_RESULTS.json",
+      "bytes": 15226,
+      "sha256": "23f14a17cef71e1810197c8114f3ada85aa5976a3019e35914e6b889565797cf"
+    },
+    {
+      "path": "reference/historical_SUMMARY.csv",
+      "bytes": 996,
+      "sha256": "442d4f60ad26c5aa3185c7a0c1f958513b7e2aac72fe4126631ba81e4f60e479"
+    },
+    {
+      "path": "reference/historical_SUMMARY.json",
+      "bytes": 4764,
+      "sha256": "4760f7aba0baf7a0269605a8675e85d4e91c8873122b1aef686615a9b83f9815"
+    },
+    {
+      "path": "run.py",
+      "bytes": 2266,
+      "sha256": "16cb091d7e0a5195e8afa40a98a49abcaad7711f00cb8635b733a22434ac6529"
+    },
+    {
+      "path": "sources/aodv-routing-protocol.h",
+      "bytes": 17253,
+      "sha256": "26e818940ae48da8c6e37bd0b99a047661a7a42857dd0720587bd64d1592442e"
+    },
+    {
+      "path": "sources/aodv-rtable.h",
+      "bytes": 13758,
+      "sha256": "c1263eb098bb1afc4d8c2ff6f551e5453af9b11054c747b428aeda7b6d26748a"
+    },
+    {
+      "path": "sources/expiry-observer.cc",
+      "bytes": 26356,
+      "sha256": "5474a76ae573bf1112e7e81a2d4b446f2258bbcfd0e9e90726adcedfe83bf8c1"
+    },
+    {
+      "path": "sources/lifecycle-rtable.cc",
+      "bytes": 14163,
+      "sha256": "6ce9dc482c6ccf1311e35c5dcca5c785aad42652366e46a881409bfd43519b73"
+    },
+    {
+      "path": "sources/observer.cc",
+      "bytes": 26312,
+      "sha256": "3810fe6616c8b07935b82b514a35477f7ad7001383c6e8f9f220af2466e3a236"
+    },
+    {
+      "path": "sources/patch-routing.cc",
+      "bytes": 86471,
+      "sha256": "ba9a8b3c5ee007540e7c6f003f722ded6404329a65e6246c5f1d93c89bd13c60"
+    },
+    {
+      "path": "sources/stock-routing.cc",
+      "bytes": 86441,
+      "sha256": "da026eac31627263e83fc3c390d0908112464c6337b809895f54573bc4a232ee"
+    },
+    {
+      "path": "sources/unsafe-routing.cc",
+      "bytes": 86450,
+      "sha256": "973722e215b8e69025f1726d00b372fc32a19074b7d28c541b00d4fc0e3336c0"
+    },
+    {
+      "path": "test_analysis.py",
+      "bytes": 4093,
+      "sha256": "8d7ab2938d82f77ff76f8bbd913879ca235087a322e3a7bb7000dd901cb5e11c"
+    }
+  ]
+}

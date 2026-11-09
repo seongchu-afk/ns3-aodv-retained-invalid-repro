@@ -1,0 +1,869 @@
+{
+  "module": "staged_table4",
+  "prepared_utc_date": "2026-11-09",
+  "upstream": {
+    "version": "ns-3.47",
+    "source_url": "https://www.nsnam.org/releases/ns-3-47/",
+    "archive_name": "ns-3.47.tar.bz2",
+    "archive_sha256": "8b3adca956c834ea436b915986ab8fd053e90041acae7426895d595aaa3ccc39"
+  },
+  "frozen_source_checks": {
+    "FROZEN.json": {
+      "record_sha256": "20d5aa28004fd2e016d9968b94a68477024223096a2c1ad476af620d0bd0a114",
+      "source_checks": {
+        "observer.cc": {
+          "expected": "a8c19295b941bbbd098aa7ca7c512405cb55bda3c0f14b8822fa98ff71eaab34",
+          "actual": "a8c19295b941bbbd098aa7ca7c512405cb55bda3c0f14b8822fa98ff71eaab34",
+          "matches": true
+        },
+        "aodv-routing-protocol.h": {
+          "expected": "d4b2ffc45b1ef798570cec58848b89b5b864eabb0fb8f34a4819edd7d3f7f8cc",
+          "actual": "d4b2ffc45b1ef798570cec58848b89b5b864eabb0fb8f34a4819edd7d3f7f8cc",
+          "matches": true
+        },
+        "aodv-rtable.h": {
+          "expected": "739bd31faf998a7013a9a6663c583ea022dd132008e159065c18ff5923f0d8a5",
+          "actual": "739bd31faf998a7013a9a6663c583ea022dd132008e159065c18ff5923f0d8a5",
+          "matches": true
+        },
+        "lifecycle-rtable.cc": {
+          "expected": "c36a465d1fbb67f3dbbb064604b3befb06a38ff4307049ceec2cf0c9cac920e6",
+          "actual": "c36a465d1fbb67f3dbbb064604b3befb06a38ff4307049ceec2cf0c9cac920e6",
+          "matches": true
+        },
+        "natural.csv": {
+          "expected": "9ac7eade8e8b7499dca6572f3ffa3c23f4af4d58e759ecac6ad3557812dab2af",
+          "actual": "9ac7eade8e8b7499dca6572f3ffa3c23f4af4d58e759ecac6ad3557812dab2af",
+          "matches": true
+        },
+        "positive.csv": {
+          "expected": "af4de31fd7e0cd3f7a7ef76adb581eb1988c2f4b57aeb531004179b194be32ae",
+          "actual": "af4de31fd7e0cd3f7a7ef76adb581eb1988c2f4b57aeb531004179b194be32ae",
+          "matches": true
+        },
+        "stock-routing.cc": {
+          "expected": "5c206729ef5a21bd156b488a56023c66235ec325e158a3cad63a85d91b2113f1",
+          "actual": "5c206729ef5a21bd156b488a56023c66235ec325e158a3cad63a85d91b2113f1",
+          "matches": true
+        },
+        "patch-routing.cc": {
+          "expected": "d159cd6bf65686a2ce8182c5f6a7c7b2475291adf5d1ba60a31a0efa4125cd0d",
+          "actual": "d159cd6bf65686a2ce8182c5f6a7c7b2475291adf5d1ba60a31a0efa4125cd0d",
+          "matches": true
+        },
+        "unsafe-routing.cc": {
+          "expected": "322b2197f9cd85fa1d50a033a885f3ffb7c33c129a0cdd18c03abdc60f4f7349",
+          "actual": "322b2197f9cd85fa1d50a033a885f3ffb7c33c129a0cdd18c03abdc60f4f7349",
+          "matches": true
+        }
+      }
+    },
+    "EXPIRY_FROZEN.json": {
+      "record_sha256": "2895446fe8c5bc0cca583c61339682a68d9762f746b45ce747f30c91f0335d37",
+      "source_checks": {
+        "expiry-observer.cc": {
+          "expected": "07c431a1c9fbc67fb093a3de9d11da08ddb235111b306ebcf410cd61adb5d903",
+          "actual": "07c431a1c9fbc67fb093a3de9d11da08ddb235111b306ebcf410cd61adb5d903",
+          "matches": true
+        },
+        "expiry.csv": {
+          "expected": "d5c13248bd75feb8c892e6aab8ee7bbe85ad17dc00400e1c45ab0e7ac55f336e",
+          "actual": "d5c13248bd75feb8c892e6aab8ee7bbe85ad17dc00400e1c45ab0e7ac55f336e",
+          "matches": true
+        }
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "sources/observer.cc",
+      "original_name": "observer.cc",
+      "input_sha256": "a8c19295b941bbbd098aa7ca7c512405cb55bda3c0f14b8822fa98ff71eaab34",
+      "distributed_sha256": "3810fe6616c8b07935b82b514a35477f7ad7001383c6e8f9f220af2466e3a236",
+      "transformation": "Prepended dated comment only; original source bytes unchanged."
+    },
+    {
+      "file": "sources/expiry-observer.cc",
+      "original_name": "expiry-observer.cc",
+      "input_sha256": "07c431a1c9fbc67fb093a3de9d11da08ddb235111b306ebcf410cd61adb5d903",
+      "distributed_sha256": "5474a76ae573bf1112e7e81a2d4b446f2258bbcfd0e9e90726adcedfe83bf8c1",
+      "transformation": "Prepended dated comment only; original source bytes unchanged."
+    },
+    {
+      "file": "sources/aodv-routing-protocol.h",
+      "original_name": "aodv-routing-protocol.h",
+      "input_sha256": "d4b2ffc45b1ef798570cec58848b89b5b864eabb0fb8f34a4819edd7d3f7f8cc",
+      "distributed_sha256": "26e818940ae48da8c6e37bd0b99a047661a7a42857dd0720587bd64d1592442e",
+      "transformation": "Prepended dated comment only; original source bytes unchanged."
+    },
+    {
+      "file": "sources/aodv-rtable.h",
+      "original_name": "aodv-rtable.h",
+      "input_sha256": "739bd31faf998a7013a9a6663c583ea022dd132008e159065c18ff5923f0d8a5",
+      "distributed_sha256": "c1263eb098bb1afc4d8c2ff6f551e5453af9b11054c747b428aeda7b6d26748a",
+      "transformation": "Prepended dated comment only; original source bytes unchanged."
+    },
+    {
+      "file": "sources/lifecycle-rtable.cc",
+      "original_name": "lifecycle-rtable.cc",
+      "input_sha256": "c36a465d1fbb67f3dbbb064604b3befb06a38ff4307049ceec2cf0c9cac920e6",
+      "distributed_sha256": "6ce9dc482c6ccf1311e35c5dcca5c785aad42652366e46a881409bfd43519b73",
+      "transformation": "Prepended dated comment only; original source bytes unchanged."
+    },
+    {
+      "file": "sources/stock-routing.cc",
+      "original_name": "stock-routing.cc",
+      "input_sha256": "5c206729ef5a21bd156b488a56023c66235ec325e158a3cad63a85d91b2113f1",
+      "distributed_sha256": "da026eac31627263e83fc3c390d0908112464c6337b809895f54573bc4a232ee",
+      "transformation": "Prepended dated comment only; original source bytes unchanged."
+    },
+    {
+      "file": "sources/patch-routing.cc",
+      "original_name": "patch-routing.cc",
+      "input_sha256": "d159cd6bf65686a2ce8182c5f6a7c7b2475291adf5d1ba60a31a0efa4125cd0d",
+      "distributed_sha256": "ba9a8b3c5ee007540e7c6f003f722ded6404329a65e6246c5f1d93c89bd13c60",
+      "transformation": "Prepended dated comment only; original source bytes unchanged."
+    },
+    {
+      "file": "sources/unsafe-routing.cc",
+      "original_name": "unsafe-routing.cc",
+      "input_sha256": "322b2197f9cd85fa1d50a033a885f3ffb7c33c129a0cdd18c03abdc60f4f7349",
+      "distributed_sha256": "973722e215b8e69025f1726d00b372fc32a19074b7d28c541b00d4fc0e3336c0",
+      "transformation": "Prepended dated comment only; original source bytes unchanged."
+    },
+    {
+      "file": "mobility/natural.csv",
+      "original_name": "natural.csv",
+      "input_sha256": "9ac7eade8e8b7499dca6572f3ffa3c23f4af4d58e759ecac6ad3557812dab2af",
+      "distributed_sha256": "9ac7eade8e8b7499dca6572f3ffa3c23f4af4d58e759ecac6ad3557812dab2af",
+      "transformation": "Byte-identical."
+    },
+    {
+      "file": "mobility/positive.csv",
+      "original_name": "positive.csv",
+      "input_sha256": "af4de31fd7e0cd3f7a7ef76adb581eb1988c2f4b57aeb531004179b194be32ae",
+      "distributed_sha256": "af4de31fd7e0cd3f7a7ef76adb581eb1988c2f4b57aeb531004179b194be32ae",
+      "transformation": "Byte-identical."
+    },
+    {
+      "file": "mobility/expiry.csv",
+      "original_name": "expiry.csv",
+      "input_sha256": "d5c13248bd75feb8c892e6aab8ee7bbe85ad17dc00400e1c45ab0e7ac55f336e",
+      "distributed_sha256": "d5c13248bd75feb8c892e6aab8ee7bbe85ad17dc00400e1c45ab0e7ac55f336e",
+      "transformation": "Byte-identical."
+    },
+    {
+      "file": "reference/traces/L-stock-events.csv",
+      "original_name": "runs/L-stock-events.csv",
+      "input_sha256": "242f08180dce8dcd33871a0418591c7471f8f4518abf5be4a6603fd4bea58daf",
+      "distributed_sha256": "242f08180dce8dcd33871a0418591c7471f8f4518abf5be4a6603fd4bea58daf",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-stock-flows.csv",
+      "original_name": "runs/L-stock-flows.csv",
+      "input_sha256": "139ba42c8feb186d4a82d6ff9a08a6a8cc54f9cd7f410aac59ccd55ac3d3b7b2",
+      "distributed_sha256": "139ba42c8feb186d4a82d6ff9a08a6a8cc54f9cd7f410aac59ccd55ac3d3b7b2",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-stock-control-events.csv",
+      "original_name": "runs/L-stock-control-events.csv",
+      "input_sha256": "effea65f2d7bfab792a9ba7ee4aecc016bb4d217de5a618a48c2632cf7aa8021",
+      "distributed_sha256": "effea65f2d7bfab792a9ba7ee4aecc016bb4d217de5a618a48c2632cf7aa8021",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-stock-route-snapshots.csv",
+      "original_name": "runs/L-stock-route-snapshots.csv",
+      "input_sha256": "990b0e4d172b0bb8d2236fbed13a04b9d64f23b90249993b878d8e38bcc2b0a5",
+      "distributed_sha256": "990b0e4d172b0bb8d2236fbed13a04b9d64f23b90249993b878d8e38bcc2b0a5",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-stock-lifecycle.csv",
+      "original_name": "runs/L-stock-lifecycle.csv",
+      "input_sha256": "b1637e8f0b7d4413d44a536584a6cb2338cdebeca435970f09400c73bcfcd2af",
+      "distributed_sha256": "b1637e8f0b7d4413d44a536584a6cb2338cdebeca435970f09400c73bcfcd2af",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-stock-reason.csv",
+      "original_name": "runs/L-stock-reason.csv",
+      "input_sha256": "8886ca228687d7ebc9345351a94478b423bbd4969cc9626ef772ec9623a48666",
+      "distributed_sha256": "8886ca228687d7ebc9345351a94478b423bbd4969cc9626ef772ec9623a48666",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-stock-qualification.csv",
+      "original_name": "runs/L-stock-qualification.csv",
+      "input_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "distributed_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-stock-graph.csv",
+      "original_name": "runs/L-stock-graph.csv",
+      "input_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "distributed_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-patch-events.csv",
+      "original_name": "runs/L-patch-events.csv",
+      "input_sha256": "b870ee8a083d94cf0a81f4936f0c3cae76ab91a44248447fc04d6635ae90daa0",
+      "distributed_sha256": "b870ee8a083d94cf0a81f4936f0c3cae76ab91a44248447fc04d6635ae90daa0",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-patch-flows.csv",
+      "original_name": "runs/L-patch-flows.csv",
+      "input_sha256": "c0f63c097d8c53f25360d6a62abf23744ece20c2e4c29713ae2f9864819ca893",
+      "distributed_sha256": "c0f63c097d8c53f25360d6a62abf23744ece20c2e4c29713ae2f9864819ca893",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-patch-control-events.csv",
+      "original_name": "runs/L-patch-control-events.csv",
+      "input_sha256": "7917f06b79ba411e021f36d8f30b554dab86cbcf81f5f019e5864c97bb34252d",
+      "distributed_sha256": "7917f06b79ba411e021f36d8f30b554dab86cbcf81f5f019e5864c97bb34252d",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-patch-route-snapshots.csv",
+      "original_name": "runs/L-patch-route-snapshots.csv",
+      "input_sha256": "c4f028f9f051b4655029981cb1a8df54a7eba59cf5fd44670782d31929f0a2a1",
+      "distributed_sha256": "c4f028f9f051b4655029981cb1a8df54a7eba59cf5fd44670782d31929f0a2a1",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-patch-lifecycle.csv",
+      "original_name": "runs/L-patch-lifecycle.csv",
+      "input_sha256": "a0fe1c436d0af79069355001eb955b12188533ec017297ed254e4e6ce3542c4f",
+      "distributed_sha256": "a0fe1c436d0af79069355001eb955b12188533ec017297ed254e4e6ce3542c4f",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-patch-reason.csv",
+      "original_name": "runs/L-patch-reason.csv",
+      "input_sha256": "c4fe426dc34d5d1b0c2553fd711f819fb56dcf6c3b8d545bbdcd7c46a8400af2",
+      "distributed_sha256": "c4fe426dc34d5d1b0c2553fd711f819fb56dcf6c3b8d545bbdcd7c46a8400af2",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-patch-qualification.csv",
+      "original_name": "runs/L-patch-qualification.csv",
+      "input_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "distributed_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-patch-graph.csv",
+      "original_name": "runs/L-patch-graph.csv",
+      "input_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "distributed_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-unsafe-events.csv",
+      "original_name": "runs/L-unsafe-events.csv",
+      "input_sha256": "b870ee8a083d94cf0a81f4936f0c3cae76ab91a44248447fc04d6635ae90daa0",
+      "distributed_sha256": "b870ee8a083d94cf0a81f4936f0c3cae76ab91a44248447fc04d6635ae90daa0",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-unsafe-flows.csv",
+      "original_name": "runs/L-unsafe-flows.csv",
+      "input_sha256": "c0f63c097d8c53f25360d6a62abf23744ece20c2e4c29713ae2f9864819ca893",
+      "distributed_sha256": "c0f63c097d8c53f25360d6a62abf23744ece20c2e4c29713ae2f9864819ca893",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-unsafe-control-events.csv",
+      "original_name": "runs/L-unsafe-control-events.csv",
+      "input_sha256": "7917f06b79ba411e021f36d8f30b554dab86cbcf81f5f019e5864c97bb34252d",
+      "distributed_sha256": "7917f06b79ba411e021f36d8f30b554dab86cbcf81f5f019e5864c97bb34252d",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-unsafe-route-snapshots.csv",
+      "original_name": "runs/L-unsafe-route-snapshots.csv",
+      "input_sha256": "c4f028f9f051b4655029981cb1a8df54a7eba59cf5fd44670782d31929f0a2a1",
+      "distributed_sha256": "c4f028f9f051b4655029981cb1a8df54a7eba59cf5fd44670782d31929f0a2a1",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-unsafe-lifecycle.csv",
+      "original_name": "runs/L-unsafe-lifecycle.csv",
+      "input_sha256": "a0fe1c436d0af79069355001eb955b12188533ec017297ed254e4e6ce3542c4f",
+      "distributed_sha256": "a0fe1c436d0af79069355001eb955b12188533ec017297ed254e4e6ce3542c4f",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-unsafe-reason.csv",
+      "original_name": "runs/L-unsafe-reason.csv",
+      "input_sha256": "c4fe426dc34d5d1b0c2553fd711f819fb56dcf6c3b8d545bbdcd7c46a8400af2",
+      "distributed_sha256": "c4fe426dc34d5d1b0c2553fd711f819fb56dcf6c3b8d545bbdcd7c46a8400af2",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-unsafe-qualification.csv",
+      "original_name": "runs/L-unsafe-qualification.csv",
+      "input_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "distributed_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/L-unsafe-graph.csv",
+      "original_name": "runs/L-unsafe-graph.csv",
+      "input_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "distributed_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-stock-events.csv",
+      "original_name": "runs/E-stock-events.csv",
+      "input_sha256": "08623eb29cde352f24db1c84f01bac79a02716891d2616688748b83ab22dc5a5",
+      "distributed_sha256": "08623eb29cde352f24db1c84f01bac79a02716891d2616688748b83ab22dc5a5",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-stock-flows.csv",
+      "original_name": "runs/E-stock-flows.csv",
+      "input_sha256": "4f231fb58492f94d4df17bb4f0273b270bae6b73ba82117d9fa938c03d1811ae",
+      "distributed_sha256": "4f231fb58492f94d4df17bb4f0273b270bae6b73ba82117d9fa938c03d1811ae",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-stock-control-events.csv",
+      "original_name": "runs/E-stock-control-events.csv",
+      "input_sha256": "21b7c640d37acae8eb589ce40d9dc61043b29e9660e960099d8ea331ce4119ab",
+      "distributed_sha256": "21b7c640d37acae8eb589ce40d9dc61043b29e9660e960099d8ea331ce4119ab",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-stock-route-snapshots.csv",
+      "original_name": "runs/E-stock-route-snapshots.csv",
+      "input_sha256": "c4804aebb0d86fe34c747c2591b759a2cfa50d8f1a5d66759d88c8c743365749",
+      "distributed_sha256": "c4804aebb0d86fe34c747c2591b759a2cfa50d8f1a5d66759d88c8c743365749",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-stock-lifecycle.csv",
+      "original_name": "runs/E-stock-lifecycle.csv",
+      "input_sha256": "c5ffae789a8236ec1a585a0b03b06217c443f2601aa8702beb501d81f6376ff1",
+      "distributed_sha256": "c5ffae789a8236ec1a585a0b03b06217c443f2601aa8702beb501d81f6376ff1",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-stock-reason.csv",
+      "original_name": "runs/E-stock-reason.csv",
+      "input_sha256": "340d413201eabf623ef27cbf542628c4a78f1b2db3e07835bc7a49f9a99cb579",
+      "distributed_sha256": "340d413201eabf623ef27cbf542628c4a78f1b2db3e07835bc7a49f9a99cb579",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-stock-qualification.csv",
+      "original_name": "runs/E-stock-qualification.csv",
+      "input_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "distributed_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-stock-graph.csv",
+      "original_name": "runs/E-stock-graph.csv",
+      "input_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "distributed_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-patch-events.csv",
+      "original_name": "runs/E-patch-events.csv",
+      "input_sha256": "053e3b0335fa65931d79fd803b37c3462e47b346e96279a71153795cbfd31ff2",
+      "distributed_sha256": "053e3b0335fa65931d79fd803b37c3462e47b346e96279a71153795cbfd31ff2",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-patch-flows.csv",
+      "original_name": "runs/E-patch-flows.csv",
+      "input_sha256": "ca81a4de43de5841e1006d6a6cc00530146f26182adb646b7de0fbd49790bf6c",
+      "distributed_sha256": "ca81a4de43de5841e1006d6a6cc00530146f26182adb646b7de0fbd49790bf6c",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-patch-control-events.csv",
+      "original_name": "runs/E-patch-control-events.csv",
+      "input_sha256": "9b626c6b303a865c2b66c3909de01aad1b9eed92f5166c5e167e7370aa2a6619",
+      "distributed_sha256": "9b626c6b303a865c2b66c3909de01aad1b9eed92f5166c5e167e7370aa2a6619",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-patch-route-snapshots.csv",
+      "original_name": "runs/E-patch-route-snapshots.csv",
+      "input_sha256": "6ed6b8e836d350c91b094ef50c54a7944934c1e7038ba64399533feaf0f6df85",
+      "distributed_sha256": "6ed6b8e836d350c91b094ef50c54a7944934c1e7038ba64399533feaf0f6df85",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-patch-lifecycle.csv",
+      "original_name": "runs/E-patch-lifecycle.csv",
+      "input_sha256": "8cd847c74f879bf2f9bff451e583d129cba59dcddec5fda73dbc69e8aa60279e",
+      "distributed_sha256": "8cd847c74f879bf2f9bff451e583d129cba59dcddec5fda73dbc69e8aa60279e",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-patch-reason.csv",
+      "original_name": "runs/E-patch-reason.csv",
+      "input_sha256": "251b86e44305b0d2fc49ae6676425b9d2f1fe026a0715da7b68f2ccfa8c20356",
+      "distributed_sha256": "251b86e44305b0d2fc49ae6676425b9d2f1fe026a0715da7b68f2ccfa8c20356",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-patch-qualification.csv",
+      "original_name": "runs/E-patch-qualification.csv",
+      "input_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "distributed_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-patch-graph.csv",
+      "original_name": "runs/E-patch-graph.csv",
+      "input_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "distributed_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-unsafe-events.csv",
+      "original_name": "runs/E-unsafe-events.csv",
+      "input_sha256": "23851014f09996ba90bc68a50fecfd8cfb842308fa4ac3427ca82cd1730b7ab3",
+      "distributed_sha256": "23851014f09996ba90bc68a50fecfd8cfb842308fa4ac3427ca82cd1730b7ab3",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-unsafe-flows.csv",
+      "original_name": "runs/E-unsafe-flows.csv",
+      "input_sha256": "3e68765e1e8331118e3c0245def9335d6299c025d89c43fa42f579f1931a0d1f",
+      "distributed_sha256": "3e68765e1e8331118e3c0245def9335d6299c025d89c43fa42f579f1931a0d1f",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-unsafe-control-events.csv",
+      "original_name": "runs/E-unsafe-control-events.csv",
+      "input_sha256": "1ff74eae67521f6df41ce3f2a1da73597c4817477cd13c07095d7960b817b8fc",
+      "distributed_sha256": "1ff74eae67521f6df41ce3f2a1da73597c4817477cd13c07095d7960b817b8fc",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-unsafe-route-snapshots.csv",
+      "original_name": "runs/E-unsafe-route-snapshots.csv",
+      "input_sha256": "4ea849dd8f6219f9d877376f79f7d740871b4d27d1d89b8624e4320b94b51a99",
+      "distributed_sha256": "4ea849dd8f6219f9d877376f79f7d740871b4d27d1d89b8624e4320b94b51a99",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-unsafe-lifecycle.csv",
+      "original_name": "runs/E-unsafe-lifecycle.csv",
+      "input_sha256": "0f525cae687680339d79a0c8c7a2a3edc7de48681dfc8e692ad6cda342666c02",
+      "distributed_sha256": "0f525cae687680339d79a0c8c7a2a3edc7de48681dfc8e692ad6cda342666c02",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-unsafe-reason.csv",
+      "original_name": "runs/E-unsafe-reason.csv",
+      "input_sha256": "4c7ab59b59bbf29b9bc0a46a3e1facc56687a559ef418af56255243d3fa1999c",
+      "distributed_sha256": "4c7ab59b59bbf29b9bc0a46a3e1facc56687a559ef418af56255243d3fa1999c",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-unsafe-qualification.csv",
+      "original_name": "runs/E-unsafe-qualification.csv",
+      "input_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "distributed_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E-unsafe-graph.csv",
+      "original_name": "runs/E-unsafe-graph.csv",
+      "input_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "distributed_sha256": "9b2b5f955b3e8d847e697eb6d9ccb6b8b568ae3626c2f6a76b6a31ca5f33980a",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-stock-events.csv",
+      "original_name": "runs/E2-stock-events.csv",
+      "input_sha256": "8eebf2c865d8790d7311cbdc5f60f45bf2810fccae233f5639c8d13c16f19dab",
+      "distributed_sha256": "8eebf2c865d8790d7311cbdc5f60f45bf2810fccae233f5639c8d13c16f19dab",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-stock-flows.csv",
+      "original_name": "runs/E2-stock-flows.csv",
+      "input_sha256": "eb74e0e10b94bbe5db43da463490700ea27e2da39af75f3e83fd3b7f009e045b",
+      "distributed_sha256": "eb74e0e10b94bbe5db43da463490700ea27e2da39af75f3e83fd3b7f009e045b",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-stock-control-events.csv",
+      "original_name": "runs/E2-stock-control-events.csv",
+      "input_sha256": "78d2baf5495f09f225d8c80384adafef644fca86055951b5510ec406c209add5",
+      "distributed_sha256": "78d2baf5495f09f225d8c80384adafef644fca86055951b5510ec406c209add5",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-stock-route-snapshots.csv",
+      "original_name": "runs/E2-stock-route-snapshots.csv",
+      "input_sha256": "e99f5a64f43a4e465fac157b690cf76caada30e364565e36c605f7062cbdc6c6",
+      "distributed_sha256": "e99f5a64f43a4e465fac157b690cf76caada30e364565e36c605f7062cbdc6c6",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-stock-lifecycle.csv",
+      "original_name": "runs/E2-stock-lifecycle.csv",
+      "input_sha256": "86edae2f11f45e5e9e584564b7bca688ee85038d14908428293ea740ba7b7865",
+      "distributed_sha256": "86edae2f11f45e5e9e584564b7bca688ee85038d14908428293ea740ba7b7865",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-stock-reason.csv",
+      "original_name": "runs/E2-stock-reason.csv",
+      "input_sha256": "d3b32541b861b19de38b10c5e9dca6c18c7cf7899cc07cde1a6d70885868bd2f",
+      "distributed_sha256": "d3b32541b861b19de38b10c5e9dca6c18c7cf7899cc07cde1a6d70885868bd2f",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-stock-qualification.csv",
+      "original_name": "runs/E2-stock-qualification.csv",
+      "input_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "distributed_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-stock-graph.csv",
+      "original_name": "runs/E2-stock-graph.csv",
+      "input_sha256": "0197ee670a5afc3107c7156e563107338a180d875dd0849b28bc3a40e42304c7",
+      "distributed_sha256": "0197ee670a5afc3107c7156e563107338a180d875dd0849b28bc3a40e42304c7",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-patch-events.csv",
+      "original_name": "runs/E2-patch-events.csv",
+      "input_sha256": "56bc21f67d11640c113c50d869a57b61a273e4c63526b6ea5d9dbd9723a9cb55",
+      "distributed_sha256": "56bc21f67d11640c113c50d869a57b61a273e4c63526b6ea5d9dbd9723a9cb55",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-patch-flows.csv",
+      "original_name": "runs/E2-patch-flows.csv",
+      "input_sha256": "751e524b54675c2bca95c3beb33b80071847510cc0f7f25598057b2fbaca3454",
+      "distributed_sha256": "751e524b54675c2bca95c3beb33b80071847510cc0f7f25598057b2fbaca3454",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-patch-control-events.csv",
+      "original_name": "runs/E2-patch-control-events.csv",
+      "input_sha256": "cefded0a92cf5d0e63d71cb3bd64182434c82b0554e45e9cffd1428667eefdda",
+      "distributed_sha256": "cefded0a92cf5d0e63d71cb3bd64182434c82b0554e45e9cffd1428667eefdda",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-patch-route-snapshots.csv",
+      "original_name": "runs/E2-patch-route-snapshots.csv",
+      "input_sha256": "3a286580a40f954383724dd3279e96b8e13a7e71d3ad3783f80098372d67c048",
+      "distributed_sha256": "3a286580a40f954383724dd3279e96b8e13a7e71d3ad3783f80098372d67c048",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-patch-lifecycle.csv",
+      "original_name": "runs/E2-patch-lifecycle.csv",
+      "input_sha256": "5f4c4573089bc7509a4ecea627ab8d81a82b1ace3b55066ddd4f778c68ef23ea",
+      "distributed_sha256": "5f4c4573089bc7509a4ecea627ab8d81a82b1ace3b55066ddd4f778c68ef23ea",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-patch-reason.csv",
+      "original_name": "runs/E2-patch-reason.csv",
+      "input_sha256": "d2ad7171dc66b0d63a58a9477ed16f57cf8df170d83fb13ef39fc6e94a68807f",
+      "distributed_sha256": "d2ad7171dc66b0d63a58a9477ed16f57cf8df170d83fb13ef39fc6e94a68807f",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-patch-qualification.csv",
+      "original_name": "runs/E2-patch-qualification.csv",
+      "input_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "distributed_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-patch-graph.csv",
+      "original_name": "runs/E2-patch-graph.csv",
+      "input_sha256": "0197ee670a5afc3107c7156e563107338a180d875dd0849b28bc3a40e42304c7",
+      "distributed_sha256": "0197ee670a5afc3107c7156e563107338a180d875dd0849b28bc3a40e42304c7",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-unsafe-events.csv",
+      "original_name": "runs/E2-unsafe-events.csv",
+      "input_sha256": "56bc21f67d11640c113c50d869a57b61a273e4c63526b6ea5d9dbd9723a9cb55",
+      "distributed_sha256": "56bc21f67d11640c113c50d869a57b61a273e4c63526b6ea5d9dbd9723a9cb55",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-unsafe-flows.csv",
+      "original_name": "runs/E2-unsafe-flows.csv",
+      "input_sha256": "751e524b54675c2bca95c3beb33b80071847510cc0f7f25598057b2fbaca3454",
+      "distributed_sha256": "751e524b54675c2bca95c3beb33b80071847510cc0f7f25598057b2fbaca3454",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-unsafe-control-events.csv",
+      "original_name": "runs/E2-unsafe-control-events.csv",
+      "input_sha256": "cefded0a92cf5d0e63d71cb3bd64182434c82b0554e45e9cffd1428667eefdda",
+      "distributed_sha256": "cefded0a92cf5d0e63d71cb3bd64182434c82b0554e45e9cffd1428667eefdda",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-unsafe-route-snapshots.csv",
+      "original_name": "runs/E2-unsafe-route-snapshots.csv",
+      "input_sha256": "3a286580a40f954383724dd3279e96b8e13a7e71d3ad3783f80098372d67c048",
+      "distributed_sha256": "3a286580a40f954383724dd3279e96b8e13a7e71d3ad3783f80098372d67c048",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-unsafe-lifecycle.csv",
+      "original_name": "runs/E2-unsafe-lifecycle.csv",
+      "input_sha256": "5f4c4573089bc7509a4ecea627ab8d81a82b1ace3b55066ddd4f778c68ef23ea",
+      "distributed_sha256": "5f4c4573089bc7509a4ecea627ab8d81a82b1ace3b55066ddd4f778c68ef23ea",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-unsafe-reason.csv",
+      "original_name": "runs/E2-unsafe-reason.csv",
+      "input_sha256": "d2ad7171dc66b0d63a58a9477ed16f57cf8df170d83fb13ef39fc6e94a68807f",
+      "distributed_sha256": "d2ad7171dc66b0d63a58a9477ed16f57cf8df170d83fb13ef39fc6e94a68807f",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-unsafe-qualification.csv",
+      "original_name": "runs/E2-unsafe-qualification.csv",
+      "input_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "distributed_sha256": "fd8dbacbccaf878b66d42cda036577674417e72f290fe5090c798b57edb2e584",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/E2-unsafe-graph.csv",
+      "original_name": "runs/E2-unsafe-graph.csv",
+      "input_sha256": "0197ee670a5afc3107c7156e563107338a180d875dd0849b28bc3a40e42304c7",
+      "distributed_sha256": "0197ee670a5afc3107c7156e563107338a180d875dd0849b28bc3a40e42304c7",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-stock-events.csv",
+      "original_name": "runs/P-stock-events.csv",
+      "input_sha256": "1be7903cbd3e23bcbebbe908541978090de4261cb59a14caa3a0ceb2d5c86f1f",
+      "distributed_sha256": "1be7903cbd3e23bcbebbe908541978090de4261cb59a14caa3a0ceb2d5c86f1f",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-stock-flows.csv",
+      "original_name": "runs/P-stock-flows.csv",
+      "input_sha256": "06d70cad285b72505736c2c1832523fdf12a9b6f1bf032a4c9e13178ec6a76e4",
+      "distributed_sha256": "06d70cad285b72505736c2c1832523fdf12a9b6f1bf032a4c9e13178ec6a76e4",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-stock-control-events.csv",
+      "original_name": "runs/P-stock-control-events.csv",
+      "input_sha256": "b4fcf8a29e3f6b2ab9bf8609245b5f5e6c7afe69ed71b96368bb46923d878562",
+      "distributed_sha256": "b4fcf8a29e3f6b2ab9bf8609245b5f5e6c7afe69ed71b96368bb46923d878562",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-stock-route-snapshots.csv",
+      "original_name": "runs/P-stock-route-snapshots.csv",
+      "input_sha256": "f75baaeb8adb6e9b35e84b2e5aafd7707b5ab8bdf2dab71a214259db6d96e317",
+      "distributed_sha256": "f75baaeb8adb6e9b35e84b2e5aafd7707b5ab8bdf2dab71a214259db6d96e317",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-stock-lifecycle.csv",
+      "original_name": "runs/P-stock-lifecycle.csv",
+      "input_sha256": "a558b7dd646e346b0d7caf64a9065f0a6b213ee11a6ed7cea4dc0f1b87030cd3",
+      "distributed_sha256": "a558b7dd646e346b0d7caf64a9065f0a6b213ee11a6ed7cea4dc0f1b87030cd3",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-stock-reason.csv",
+      "original_name": "runs/P-stock-reason.csv",
+      "input_sha256": "1f124012288275fa9fc0b8487c0b2ff9e354b2ea02f75ea0e627d99b96b523e7",
+      "distributed_sha256": "1f124012288275fa9fc0b8487c0b2ff9e354b2ea02f75ea0e627d99b96b523e7",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-stock-qualification.csv",
+      "original_name": "runs/P-stock-qualification.csv",
+      "input_sha256": "bbd3ea3a086d3a7a9124022fb7c80e60a3f0f2bef874a520470498c4eb646336",
+      "distributed_sha256": "bbd3ea3a086d3a7a9124022fb7c80e60a3f0f2bef874a520470498c4eb646336",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-stock-graph.csv",
+      "original_name": "runs/P-stock-graph.csv",
+      "input_sha256": "788620a197aaf46840f3a73a212428fe102b0cb117354685ab0e5e5ba328eea1",
+      "distributed_sha256": "788620a197aaf46840f3a73a212428fe102b0cb117354685ab0e5e5ba328eea1",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-patch-events.csv",
+      "original_name": "runs/P-patch-events.csv",
+      "input_sha256": "1be7903cbd3e23bcbebbe908541978090de4261cb59a14caa3a0ceb2d5c86f1f",
+      "distributed_sha256": "1be7903cbd3e23bcbebbe908541978090de4261cb59a14caa3a0ceb2d5c86f1f",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-patch-flows.csv",
+      "original_name": "runs/P-patch-flows.csv",
+      "input_sha256": "06d70cad285b72505736c2c1832523fdf12a9b6f1bf032a4c9e13178ec6a76e4",
+      "distributed_sha256": "06d70cad285b72505736c2c1832523fdf12a9b6f1bf032a4c9e13178ec6a76e4",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-patch-control-events.csv",
+      "original_name": "runs/P-patch-control-events.csv",
+      "input_sha256": "6d2ba83d8d2e265acbd68fb9aa02e3c6598065b98ad6c79a5346f0747c5882f9",
+      "distributed_sha256": "6d2ba83d8d2e265acbd68fb9aa02e3c6598065b98ad6c79a5346f0747c5882f9",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-patch-route-snapshots.csv",
+      "original_name": "runs/P-patch-route-snapshots.csv",
+      "input_sha256": "f780430381b017c98e72a1e69f0537bc116e375a13bb8baa0da8397524dfaadd",
+      "distributed_sha256": "f780430381b017c98e72a1e69f0537bc116e375a13bb8baa0da8397524dfaadd",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-patch-lifecycle.csv",
+      "original_name": "runs/P-patch-lifecycle.csv",
+      "input_sha256": "a558b7dd646e346b0d7caf64a9065f0a6b213ee11a6ed7cea4dc0f1b87030cd3",
+      "distributed_sha256": "a558b7dd646e346b0d7caf64a9065f0a6b213ee11a6ed7cea4dc0f1b87030cd3",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-patch-reason.csv",
+      "original_name": "runs/P-patch-reason.csv",
+      "input_sha256": "4f696ea0621ca87f084f14491e2c90ecabdc2e1ab2a0d904a715ebafcb0316a1",
+      "distributed_sha256": "4f696ea0621ca87f084f14491e2c90ecabdc2e1ab2a0d904a715ebafcb0316a1",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-patch-qualification.csv",
+      "original_name": "runs/P-patch-qualification.csv",
+      "input_sha256": "bbd3ea3a086d3a7a9124022fb7c80e60a3f0f2bef874a520470498c4eb646336",
+      "distributed_sha256": "bbd3ea3a086d3a7a9124022fb7c80e60a3f0f2bef874a520470498c4eb646336",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-patch-graph.csv",
+      "original_name": "runs/P-patch-graph.csv",
+      "input_sha256": "788620a197aaf46840f3a73a212428fe102b0cb117354685ab0e5e5ba328eea1",
+      "distributed_sha256": "788620a197aaf46840f3a73a212428fe102b0cb117354685ab0e5e5ba328eea1",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-unsafe-events.csv",
+      "original_name": "runs/P-unsafe-events.csv",
+      "input_sha256": "1be7903cbd3e23bcbebbe908541978090de4261cb59a14caa3a0ceb2d5c86f1f",
+      "distributed_sha256": "1be7903cbd3e23bcbebbe908541978090de4261cb59a14caa3a0ceb2d5c86f1f",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-unsafe-flows.csv",
+      "original_name": "runs/P-unsafe-flows.csv",
+      "input_sha256": "06d70cad285b72505736c2c1832523fdf12a9b6f1bf032a4c9e13178ec6a76e4",
+      "distributed_sha256": "06d70cad285b72505736c2c1832523fdf12a9b6f1bf032a4c9e13178ec6a76e4",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-unsafe-control-events.csv",
+      "original_name": "runs/P-unsafe-control-events.csv",
+      "input_sha256": "b939ad8736bcdc17e56ec04a786e51035e3c5027907dcf8ed122312122ba7a2a",
+      "distributed_sha256": "b939ad8736bcdc17e56ec04a786e51035e3c5027907dcf8ed122312122ba7a2a",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-unsafe-route-snapshots.csv",
+      "original_name": "runs/P-unsafe-route-snapshots.csv",
+      "input_sha256": "d6862278c3d89e0cc7923388ec7e671bf3421750dcf3d8709e08fcac71e5383e",
+      "distributed_sha256": "d6862278c3d89e0cc7923388ec7e671bf3421750dcf3d8709e08fcac71e5383e",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-unsafe-lifecycle.csv",
+      "original_name": "runs/P-unsafe-lifecycle.csv",
+      "input_sha256": "cc8bfd90a719daf6b3efee35fb414215e9751b73a71f99836e10a6235933abc5",
+      "distributed_sha256": "cc8bfd90a719daf6b3efee35fb414215e9751b73a71f99836e10a6235933abc5",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-unsafe-reason.csv",
+      "original_name": "runs/P-unsafe-reason.csv",
+      "input_sha256": "c456933e6d7d72441bcf4bd53898c046b889011eceddf1a5046afa5036d8a2b2",
+      "distributed_sha256": "c456933e6d7d72441bcf4bd53898c046b889011eceddf1a5046afa5036d8a2b2",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-unsafe-qualification.csv",
+      "original_name": "runs/P-unsafe-qualification.csv",
+      "input_sha256": "bbd3ea3a086d3a7a9124022fb7c80e60a3f0f2bef874a520470498c4eb646336",
+      "distributed_sha256": "bbd3ea3a086d3a7a9124022fb7c80e60a3f0f2bef874a520470498c4eb646336",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/traces/P-unsafe-graph.csv",
+      "original_name": "runs/P-unsafe-graph.csv",
+      "input_sha256": "788620a197aaf46840f3a73a212428fe102b0cb117354685ab0e5e5ba328eea1",
+      "distributed_sha256": "788620a197aaf46840f3a73a212428fe102b0cb117354685ab0e5e5ba328eea1",
+      "transformation": "Byte-identical scientific CSV."
+    },
+    {
+      "file": "reference/historical_SUMMARY.csv",
+      "original_name": "SUMMARY.csv",
+      "input_sha256": "442d4f60ad26c5aa3185c7a0c1f958513b7e2aac72fe4126631ba81e4f60e479",
+      "distributed_sha256": "442d4f60ad26c5aa3185c7a0c1f958513b7e2aac72fe4126631ba81e4f60e479",
+      "transformation": "Byte-identical historical result."
+    },
+    {
+      "file": "reference/historical_SUMMARY.json",
+      "original_name": "SUMMARY.json",
+      "input_sha256": "4760f7aba0baf7a0269605a8675e85d4e91c8873122b1aef686615a9b83f9815",
+      "distributed_sha256": "4760f7aba0baf7a0269605a8675e85d4e91c8873122b1aef686615a9b83f9815",
+      "transformation": "Byte-identical historical result."
+    },
+    {
+      "file": "reference/historical_QUALIFICATION_RESULTS.json",
+      "original_name": "QUALIFICATION_RESULTS.json",
+      "input_sha256": "23f14a17cef71e1810197c8114f3ada85aa5976a3019e35914e6b889565797cf",
+      "distributed_sha256": "23f14a17cef71e1810197c8114f3ada85aa5976a3019e35914e6b889565797cf",
+      "transformation": "Byte-identical historical result."
+    },
+    {
+      "file": "analysis/strict_returns.py",
+      "original_name": "version-2.0.0/analysis/strict_returns.py",
+      "input_sha256": "69497a358ca2c03bccba21be4b5a2537d3b63664584f619dfa6ae5ca2eb85e26",
+      "distributed_sha256": "69497a358ca2c03bccba21be4b5a2537d3b63664584f619dfa6ae5ca2eb85e26",
+      "transformation": "Byte-identical version 2.0.0 strict identity/TTL matcher."
+    }
+  ],
+  "split_distribution_mapping": {
+    "analysis_input": "Explicit --input accepts the CSV directory or its parent containing traces/.",
+    "reference_comparison": "Optional --reference-input. Full replay always checks the small expected table without requiring original raw traces.",
+    "historical_pre_split_trace_directory": "reference/traces",
+    "separate_data_directory": "analysis_data/staged_table4/traces"
+  },
+  "integrated_layout": {
+    "source_root": "code/original_cases/staged_table4/",
+    "data_root": "analysis_data/staged_table4/",
+    "historical_record_path_prefix": "reference/traces/",
+    "distributed_trace_prefix": "analysis_data/staged_table4/traces/",
+    "path_scope": "Historical record paths are retained for source provenance; use distributed_trace_prefix for the split archive. Scientific bytes and identifiers are unchanged."
+  }
+}
