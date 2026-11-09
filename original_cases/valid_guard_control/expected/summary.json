@@ -1,0 +1,65 @@
+[
+  {
+    "name": "valid_negative_patch",
+    "injection_s": "18",
+    "qualified": false,
+    "request_tx_time": "18",
+    "request_ppdu_time": "18.00005",
+    "request_ppdu_duration_ns": "150000",
+    "request_ppdu_end_s": "18.00020",
+    "b_request_rx_count": 0,
+    "b_request_reason_count": 0,
+    "b_request_forward_count": 0,
+    "b_rrep_tx_count_in_10ms_window": 0,
+    "b_overlapping_ppdus": [
+      {
+        "time": "18.00005",
+        "node": "1",
+        "duration_ns": "798000",
+        "psdu_bytes": "576",
+        "kind": "DATA",
+        "receiver_mac": "00:00:00:00:00:01",
+        "group": "0",
+        "retry": "0",
+        "origin": "",
+        "destination": "",
+        "request_id": "-1",
+        "hop": "-1",
+        "destination_seq": "-1",
+        "flow": "0",
+        "seq": "130"
+      }
+    ],
+    "valid_guard": null
+  },
+  {
+    "name": "valid_negative_shifted",
+    "injection_s": "18.05",
+    "qualified": true,
+    "request_tx_time": "18.05",
+    "request_ppdu_time": "18.05005",
+    "request_ppdu_duration_ns": "150000",
+    "request_ppdu_end_s": "18.05020",
+    "b_request_rx_count": 1,
+    "b_request_reason_count": 1,
+    "b_request_forward_count": 0,
+    "b_rrep_tx_count_in_10ms_window": 0,
+    "b_overlapping_ppdus": [],
+    "valid_guard": {
+      "time": "18.050200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "9001",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "loop_guard_next_hop_equals_sender",
+      "route_flag": "0",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "2.949799767",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    }
+  }
+]
