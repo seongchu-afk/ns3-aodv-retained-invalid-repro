@@ -1,0 +1,8 @@
+{
+  "scope": "New portable post-processing for an original six-environment example; no simulator or observed outcome change.",
+  "source_observer_sha256": "e951c6bcf7e688cb501531845c75802e3a2c11c3a787da35731ce9b1086d495d",
+  "source_mobility_sha256": "495b20a43b99759f87831308e8fcfd0ab375dcab931d7ea53770cb29494a0209",
+  "validation": "Fresh original-six outputs and selected inputs generate five identical derived reference files.",
+  "code_license": "GPL-2.0-only",
+  "data_and_documentation_license": "CC-BY-4.0"
+}
