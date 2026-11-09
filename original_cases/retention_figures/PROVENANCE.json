@@ -1,0 +1,566 @@
+{
+  "module": "Retention-window Figures 2 and 3",
+  "upstream": {
+    "release": "ns-3.47",
+    "archive_sha256": "8b3adca956c834ea436b915986ab8fd053e90041acae7426895d595aaa3ccc39",
+    "archive_url": "https://www.nsnam.org/releases/ns-3-47/"
+  },
+  "scientific_source_and_inputs": [
+    {
+      "path": "sources/observer.cc",
+      "origin": "round16_invalid_retention/observer.cc",
+      "original_sha256": "f70bd2cd6dc73debe082354e5315fc8744412a4366ab27494bcb5cbb67348b98",
+      "distributed_sha256": "8667b5f284ff21ecd14f300b747a673c1934f0b8f67356877fb26b354c86ad17",
+      "change": "Dated comment only; original bytes unchanged after notice."
+    },
+    {
+      "path": "sources/stock-routing.cc",
+      "origin": "round16_invalid_retention/stock-routing.cc",
+      "original_sha256": "5c206729ef5a21bd156b488a56023c66235ec325e158a3cad63a85d91b2113f1",
+      "distributed_sha256": "d172e7cb10ad5b5b18ab4c93c03db0b8a040cf25a2c148aba451adda7102b108",
+      "change": "Dated comment only; original bytes unchanged after notice."
+    },
+    {
+      "path": "sources/patch-routing.cc",
+      "origin": "round16_invalid_retention/patch-routing.cc",
+      "original_sha256": "d159cd6bf65686a2ce8182c5f6a7c7b2475291adf5d1ba60a31a0efa4125cd0d",
+      "distributed_sha256": "f4e37130171ca163464a83efc20762dd2ee3a52a1a46cfbc63e939d54f916ae1",
+      "change": "Dated comment only; original bytes unchanged after notice."
+    },
+    {
+      "path": "sources/lifecycle-rtable.cc",
+      "origin": "round16_invalid_retention/lifecycle-rtable.cc",
+      "original_sha256": "d927f5dd984f06d38e537a5465cf918ef49f5ce96902645a9c4515f168a75034",
+      "distributed_sha256": "227e06af8a6be619351a121feebe753b41dabb0fd657ddae335c4ff9d37cea72",
+      "change": "Dated comment only; original bytes unchanged after notice."
+    },
+    {
+      "path": "config/retained.csv",
+      "origin": "round16_invalid_retention/retained.csv",
+      "original_sha256": "c5115b4c3643ad3f18216695117f842572696b87c922db0ad1f79cb5a9f284b7",
+      "change": "None"
+    },
+    {
+      "path": "config/after_delete.csv",
+      "origin": "round16_invalid_retention/after_delete.csv",
+      "original_sha256": "c5115b4c3643ad3f18216695117f842572696b87c922db0ad1f79cb5a9f284b7",
+      "change": "None"
+    },
+    {
+      "path": "config/cold.csv",
+      "origin": "round16_invalid_retention/cold.csv",
+      "original_sha256": "c5115b4c3643ad3f18216695117f842572696b87c922db0ad1f79cb5a9f284b7",
+      "change": "None"
+    },
+    {
+      "path": "config/second.csv",
+      "origin": "round16_invalid_retention/second.csv",
+      "original_sha256": "949045082e34be4cb831ca2cdd58d1680f7fc3f438ad32827448571804ce954b",
+      "change": "None"
+    }
+  ],
+  "original_raw_csv": [
+    {
+      "path": "runs/retained-1-stock-events.csv",
+      "sha256": "1a6f5515b684e6a5e204c722dd4741f86800a3653cfac55b0990bd1053184247"
+    },
+    {
+      "path": "runs/retained-1-stock-reason.csv",
+      "sha256": "8886ca228687d7ebc9345351a94478b423bbd4969cc9626ef772ec9623a48666"
+    },
+    {
+      "path": "runs/retained-1-stock-lifecycle.csv",
+      "sha256": "b1637e8f0b7d4413d44a536584a6cb2338cdebeca435970f09400c73bcfcd2af"
+    },
+    {
+      "path": "runs/retained-1-stock-control-events.csv",
+      "sha256": "24e8ed541e82b82831e1d072faaf02cec95865f376b7209ffe0b5f0c98c4cb2b"
+    },
+    {
+      "path": "runs/retained-1-stock-airtime.csv",
+      "sha256": "723f5067acd7b74ba6e02fe85bc89e41e6f5a974941609976d35308d96854363"
+    },
+    {
+      "path": "runs/retained-1-patch-events.csv",
+      "sha256": "77b412fc74ddf68cf237738764cbf972bf1f917d533a4fff1d4e853d373dfaf0"
+    },
+    {
+      "path": "runs/retained-1-patch-reason.csv",
+      "sha256": "c4fe426dc34d5d1b0c2553fd711f819fb56dcf6c3b8d545bbdcd7c46a8400af2"
+    },
+    {
+      "path": "runs/retained-1-patch-lifecycle.csv",
+      "sha256": "c16b893ab08e84684f400e88bcd2b7a59498fd6fa7ca6b6dbde580129b0ecc4b"
+    },
+    {
+      "path": "runs/retained-1-patch-control-events.csv",
+      "sha256": "0a2a4420588cbb652b2f88e724e11ca8f013d060af7ece2ea80964259cbe0aaa"
+    },
+    {
+      "path": "runs/retained-1-patch-airtime.csv",
+      "sha256": "4abde3fd10b02e4c7a1e87d4e489fd6a29adb6f954124410b70a4d7bd98d6cab"
+    },
+    {
+      "path": "runs/retained-2-stock-events.csv",
+      "sha256": "d15c5b7d6759b8bd724e617d19c2d45df1908b7e7f7047734851da8d44a91b7c"
+    },
+    {
+      "path": "runs/retained-2-stock-reason.csv",
+      "sha256": "4cf2bb91c43a3490cea8774eba4f6e8ef2308c0098a1d9e298b67cecb892de8c"
+    },
+    {
+      "path": "runs/retained-2-stock-lifecycle.csv",
+      "sha256": "7ab3bea0b16d290f965f69b37ae225af53112cd8c19931ccd797b3c7bc235f6d"
+    },
+    {
+      "path": "runs/retained-2-stock-control-events.csv",
+      "sha256": "e64c5f285a620bdf1d65aa8d8cb1c761c2f427b1e2366adafcc96801c9cf6c5a"
+    },
+    {
+      "path": "runs/retained-2-stock-airtime.csv",
+      "sha256": "abd3e1a867176f8466f417023b1b1ddc8fdffcd5a4b0faa5aec5c0ed7866f3fd"
+    },
+    {
+      "path": "runs/retained-2-patch-events.csv",
+      "sha256": "e15d7ef079fa99b2d20d406425a755e4c273854fbf23fafc082fc647429b0bc8"
+    },
+    {
+      "path": "runs/retained-2-patch-reason.csv",
+      "sha256": "8b522804bf4f9fa3c078f7036e1a869feb780d588e26f3448449d57e6c3c084f"
+    },
+    {
+      "path": "runs/retained-2-patch-lifecycle.csv",
+      "sha256": "fef0c87e44357f9f3f5b411d203e43169288a3ec72fa63eb0ffa769e2fea39ba"
+    },
+    {
+      "path": "runs/retained-2-patch-control-events.csv",
+      "sha256": "5e11cc246b0aa8df304b8319eb4e67a008b26823dd63fdb26c22b6580fb184da"
+    },
+    {
+      "path": "runs/retained-2-patch-airtime.csv",
+      "sha256": "6e60031a951a9865a28f42b75358f190b2a6ec23ba77c8c69eb096c23809c1a3"
+    },
+    {
+      "path": "runs/retained-3-stock-events.csv",
+      "sha256": "538045dd257ab8fed88c4a4d86ef6882897b5c7e9167d1c7ea36e1c64ec940fc"
+    },
+    {
+      "path": "runs/retained-3-stock-reason.csv",
+      "sha256": "fe90dc3fbcfa5555ea70a0fc0ecaa563d1aa8d570a58c7b4f6314607276ba3dc"
+    },
+    {
+      "path": "runs/retained-3-stock-lifecycle.csv",
+      "sha256": "1a8baf61efab4c4ecfe1b1720af5765183b1e44cd0d9f4250a24f9b2d450896b"
+    },
+    {
+      "path": "runs/retained-3-stock-control-events.csv",
+      "sha256": "25343e3ae474bee5c205db2211f1920ab32e757de4cbca0d84a2e1d6220b08d2"
+    },
+    {
+      "path": "runs/retained-3-stock-airtime.csv",
+      "sha256": "c730b15e36955b4c0c623aa4d85ab89af47ea0e896453ec9515f1e424d9b7dfb"
+    },
+    {
+      "path": "runs/retained-3-patch-events.csv",
+      "sha256": "64da2229549e02224fdf4e453d73d480145c65cb9e12e972094b80bb7bc42191"
+    },
+    {
+      "path": "runs/retained-3-patch-reason.csv",
+      "sha256": "886b2c185629b752a978229fcbe6169b0e5cd0a393da98e1e90bf60f835ade22"
+    },
+    {
+      "path": "runs/retained-3-patch-lifecycle.csv",
+      "sha256": "95e172bd5a24362656c4aba16cbaf82e70058a598b7165a5b20e134697c2ce7b"
+    },
+    {
+      "path": "runs/retained-3-patch-control-events.csv",
+      "sha256": "9e55af9c6cca7498f8d19f519fdd889a4691a5f3324297853440ff224f2ac1d9"
+    },
+    {
+      "path": "runs/retained-3-patch-airtime.csv",
+      "sha256": "8dae07f945850aadbc27e949a19bd4e338eb21c19a116fc4ddda751bd7629995"
+    },
+    {
+      "path": "runs/after_delete-1-stock-events.csv",
+      "sha256": "cba44edcb1795f963bc70a87909c6b796fc65e516150ce3c6b708aac53f9a5fe"
+    },
+    {
+      "path": "runs/after_delete-1-stock-reason.csv",
+      "sha256": "9462298f3c34aa4bd835c8b6d3741b07c9b843ddfda82d6ca63ef26b56070207"
+    },
+    {
+      "path": "runs/after_delete-1-stock-lifecycle.csv",
+      "sha256": "c8abc6309e260fbc1e5fc30796ef838a4492e5a5d33297c08aa39283598be536"
+    },
+    {
+      "path": "runs/after_delete-1-stock-control-events.csv",
+      "sha256": "4d0668766e8426216da741168fcaaeaeac3d24e77310af81cc020c05782ddaa5"
+    },
+    {
+      "path": "runs/after_delete-1-stock-airtime.csv",
+      "sha256": "8f25254573a6b6168ad2e9f1b8da992b8f55c20fd6ab9b44210f6491fe5b5ac2"
+    },
+    {
+      "path": "runs/after_delete-1-patch-events.csv",
+      "sha256": "cba44edcb1795f963bc70a87909c6b796fc65e516150ce3c6b708aac53f9a5fe"
+    },
+    {
+      "path": "runs/after_delete-1-patch-reason.csv",
+      "sha256": "9462298f3c34aa4bd835c8b6d3741b07c9b843ddfda82d6ca63ef26b56070207"
+    },
+    {
+      "path": "runs/after_delete-1-patch-lifecycle.csv",
+      "sha256": "c8abc6309e260fbc1e5fc30796ef838a4492e5a5d33297c08aa39283598be536"
+    },
+    {
+      "path": "runs/after_delete-1-patch-control-events.csv",
+      "sha256": "4d0668766e8426216da741168fcaaeaeac3d24e77310af81cc020c05782ddaa5"
+    },
+    {
+      "path": "runs/after_delete-1-patch-airtime.csv",
+      "sha256": "8f25254573a6b6168ad2e9f1b8da992b8f55c20fd6ab9b44210f6491fe5b5ac2"
+    },
+    {
+      "path": "runs/after_delete-2-stock-events.csv",
+      "sha256": "887e34450a17a1fe8f0200f0502e1947ca34ed2c3ee43871ab95bf1a2a85729d"
+    },
+    {
+      "path": "runs/after_delete-2-stock-reason.csv",
+      "sha256": "a48d6affb03b3622ee1c1dafbf1f8c9dfd4aaf68a6b60fa2f3c6faac3ef107f7"
+    },
+    {
+      "path": "runs/after_delete-2-stock-lifecycle.csv",
+      "sha256": "fd2878b805a3608940a71c1fefe28bffe0a6f42c4ef9073497e9b6cd91c07b56"
+    },
+    {
+      "path": "runs/after_delete-2-stock-control-events.csv",
+      "sha256": "1457656139af781834cd3703bf36e7d6894060e9e7e13dab4f4ac81419e47d89"
+    },
+    {
+      "path": "runs/after_delete-2-stock-airtime.csv",
+      "sha256": "12a9f3bf993080ddda2746f4a848cd56f12e825cf095457ac34d90138f514f77"
+    },
+    {
+      "path": "runs/after_delete-2-patch-events.csv",
+      "sha256": "887e34450a17a1fe8f0200f0502e1947ca34ed2c3ee43871ab95bf1a2a85729d"
+    },
+    {
+      "path": "runs/after_delete-2-patch-reason.csv",
+      "sha256": "a48d6affb03b3622ee1c1dafbf1f8c9dfd4aaf68a6b60fa2f3c6faac3ef107f7"
+    },
+    {
+      "path": "runs/after_delete-2-patch-lifecycle.csv",
+      "sha256": "fd2878b805a3608940a71c1fefe28bffe0a6f42c4ef9073497e9b6cd91c07b56"
+    },
+    {
+      "path": "runs/after_delete-2-patch-control-events.csv",
+      "sha256": "1457656139af781834cd3703bf36e7d6894060e9e7e13dab4f4ac81419e47d89"
+    },
+    {
+      "path": "runs/after_delete-2-patch-airtime.csv",
+      "sha256": "12a9f3bf993080ddda2746f4a848cd56f12e825cf095457ac34d90138f514f77"
+    },
+    {
+      "path": "runs/after_delete-3-stock-events.csv",
+      "sha256": "375ece97b9d139e8d3f22c174e294817c1402b8e58c863b782cf40308c2605cc"
+    },
+    {
+      "path": "runs/after_delete-3-stock-reason.csv",
+      "sha256": "6d0eb82812b84dea32a7711c99178631510306fc2dd7e5283d0498ac651c45b8"
+    },
+    {
+      "path": "runs/after_delete-3-stock-lifecycle.csv",
+      "sha256": "f6ff9e9a22f5317f2bf5bd256d9dfc681884521b40071d260b0f5e5820655f79"
+    },
+    {
+      "path": "runs/after_delete-3-stock-control-events.csv",
+      "sha256": "88ce31496cee3368c6808606e1e5c556d46f1a93d6ae0737e4ab710aa1a9aeb5"
+    },
+    {
+      "path": "runs/after_delete-3-stock-airtime.csv",
+      "sha256": "4d3db7cae4e5f3ddfcf7caab0dedc067def37206e189b818a0bd3afeaf4e9c38"
+    },
+    {
+      "path": "runs/after_delete-3-patch-events.csv",
+      "sha256": "375ece97b9d139e8d3f22c174e294817c1402b8e58c863b782cf40308c2605cc"
+    },
+    {
+      "path": "runs/after_delete-3-patch-reason.csv",
+      "sha256": "6d0eb82812b84dea32a7711c99178631510306fc2dd7e5283d0498ac651c45b8"
+    },
+    {
+      "path": "runs/after_delete-3-patch-lifecycle.csv",
+      "sha256": "f6ff9e9a22f5317f2bf5bd256d9dfc681884521b40071d260b0f5e5820655f79"
+    },
+    {
+      "path": "runs/after_delete-3-patch-control-events.csv",
+      "sha256": "88ce31496cee3368c6808606e1e5c556d46f1a93d6ae0737e4ab710aa1a9aeb5"
+    },
+    {
+      "path": "runs/after_delete-3-patch-airtime.csv",
+      "sha256": "4d3db7cae4e5f3ddfcf7caab0dedc067def37206e189b818a0bd3afeaf4e9c38"
+    },
+    {
+      "path": "runs/cold-1-stock-events.csv",
+      "sha256": "967a4a659d8cd9a6fe4f7c2d7482b4a118d5a1c559698aea0b5e961e245f21af"
+    },
+    {
+      "path": "runs/cold-1-stock-reason.csv",
+      "sha256": "a834247640d1994d97ae0692e6a6dac89924ada4ee39f9f744094a62eebce604"
+    },
+    {
+      "path": "runs/cold-1-stock-lifecycle.csv",
+      "sha256": "a267a21904bba8801f60bf04be32a290ce0f8d06f5506793523401a2fb501d6e"
+    },
+    {
+      "path": "runs/cold-1-stock-control-events.csv",
+      "sha256": "3decce871cd8d28adc72cc4d9cbc3116843a72e83ad2efb969c2fd3afc65a2ae"
+    },
+    {
+      "path": "runs/cold-1-stock-airtime.csv",
+      "sha256": "708ac48a2aa79e3c08d5142f2c5808cb0db9611fa09d37ceab618c58dc451526"
+    },
+    {
+      "path": "runs/cold-1-patch-events.csv",
+      "sha256": "967a4a659d8cd9a6fe4f7c2d7482b4a118d5a1c559698aea0b5e961e245f21af"
+    },
+    {
+      "path": "runs/cold-1-patch-reason.csv",
+      "sha256": "a834247640d1994d97ae0692e6a6dac89924ada4ee39f9f744094a62eebce604"
+    },
+    {
+      "path": "runs/cold-1-patch-lifecycle.csv",
+      "sha256": "a267a21904bba8801f60bf04be32a290ce0f8d06f5506793523401a2fb501d6e"
+    },
+    {
+      "path": "runs/cold-1-patch-control-events.csv",
+      "sha256": "3decce871cd8d28adc72cc4d9cbc3116843a72e83ad2efb969c2fd3afc65a2ae"
+    },
+    {
+      "path": "runs/cold-1-patch-airtime.csv",
+      "sha256": "708ac48a2aa79e3c08d5142f2c5808cb0db9611fa09d37ceab618c58dc451526"
+    },
+    {
+      "path": "runs/cold-2-stock-events.csv",
+      "sha256": "21e7b16fb948faff1eda8d1cca22292813081a35e8b9f7b5a3934708d4f8c26d"
+    },
+    {
+      "path": "runs/cold-2-stock-reason.csv",
+      "sha256": "e94e8b0be52e7afeff7a6bd6f502fdc510d2263a8df52622818747770e21db59"
+    },
+    {
+      "path": "runs/cold-2-stock-lifecycle.csv",
+      "sha256": "34b58d03416dae57271f1de2da67343a22bf1951f1f454002b957a2ea2f48fe0"
+    },
+    {
+      "path": "runs/cold-2-stock-control-events.csv",
+      "sha256": "bb4401ec85bfea6c28916830c0bcc899ee2459f8d9fc96b0907e7caeff5f68c6"
+    },
+    {
+      "path": "runs/cold-2-stock-airtime.csv",
+      "sha256": "6024a6218bd299c2f791e4f450c7b584111567da83e0f5c99066153720ea1888"
+    },
+    {
+      "path": "runs/cold-2-patch-events.csv",
+      "sha256": "21e7b16fb948faff1eda8d1cca22292813081a35e8b9f7b5a3934708d4f8c26d"
+    },
+    {
+      "path": "runs/cold-2-patch-reason.csv",
+      "sha256": "e94e8b0be52e7afeff7a6bd6f502fdc510d2263a8df52622818747770e21db59"
+    },
+    {
+      "path": "runs/cold-2-patch-lifecycle.csv",
+      "sha256": "34b58d03416dae57271f1de2da67343a22bf1951f1f454002b957a2ea2f48fe0"
+    },
+    {
+      "path": "runs/cold-2-patch-control-events.csv",
+      "sha256": "bb4401ec85bfea6c28916830c0bcc899ee2459f8d9fc96b0907e7caeff5f68c6"
+    },
+    {
+      "path": "runs/cold-2-patch-airtime.csv",
+      "sha256": "6024a6218bd299c2f791e4f450c7b584111567da83e0f5c99066153720ea1888"
+    },
+    {
+      "path": "runs/cold-3-stock-events.csv",
+      "sha256": "485fe9b7564119b4623fd259ac216d675a1e831ed1dbb59dd670b5e33dc0594d"
+    },
+    {
+      "path": "runs/cold-3-stock-reason.csv",
+      "sha256": "bece1d8180646d8a97e0a1e43fefd646ac5bcd664cbd5e694a36fc1ac903311d"
+    },
+    {
+      "path": "runs/cold-3-stock-lifecycle.csv",
+      "sha256": "1138964afd0b27a81069e5cb51d79f3d4e58f204d8e215d7e066f5aa9f6f00d3"
+    },
+    {
+      "path": "runs/cold-3-stock-control-events.csv",
+      "sha256": "a9f20eb7c94abe626093d72693d7d9c109ff95dac1bf3e7d958cff28069bde9c"
+    },
+    {
+      "path": "runs/cold-3-stock-airtime.csv",
+      "sha256": "02bd6b0343466ef707bf6088293c5adbe34dc0a65d6c7ba21f661a31e8c16080"
+    },
+    {
+      "path": "runs/cold-3-patch-events.csv",
+      "sha256": "485fe9b7564119b4623fd259ac216d675a1e831ed1dbb59dd670b5e33dc0594d"
+    },
+    {
+      "path": "runs/cold-3-patch-reason.csv",
+      "sha256": "bece1d8180646d8a97e0a1e43fefd646ac5bcd664cbd5e694a36fc1ac903311d"
+    },
+    {
+      "path": "runs/cold-3-patch-lifecycle.csv",
+      "sha256": "1138964afd0b27a81069e5cb51d79f3d4e58f204d8e215d7e066f5aa9f6f00d3"
+    },
+    {
+      "path": "runs/cold-3-patch-control-events.csv",
+      "sha256": "a9f20eb7c94abe626093d72693d7d9c109ff95dac1bf3e7d958cff28069bde9c"
+    },
+    {
+      "path": "runs/cold-3-patch-airtime.csv",
+      "sha256": "02bd6b0343466ef707bf6088293c5adbe34dc0a65d6c7ba21f661a31e8c16080"
+    },
+    {
+      "path": "runs/second-1-stock-events.csv",
+      "sha256": "9f80046fda3ded485b989987839cae9b5618132e81eb0f557c91bb8b9aaecec7"
+    },
+    {
+      "path": "runs/second-1-stock-reason.csv",
+      "sha256": "8886ca228687d7ebc9345351a94478b423bbd4969cc9626ef772ec9623a48666"
+    },
+    {
+      "path": "runs/second-1-stock-lifecycle.csv",
+      "sha256": "103a3d9ce3e9d5cca7304868340707e7efc66738142193673db1d503316decf8"
+    },
+    {
+      "path": "runs/second-1-stock-control-events.csv",
+      "sha256": "b5eeeabc56d5a90c27f246df1362475947a6b5fab3d018c1b6dcb1741ef0e2f0"
+    },
+    {
+      "path": "runs/second-1-stock-airtime.csv",
+      "sha256": "45956a903f8cc26d987eb10b4c984c950ee08eb970822a01083bb5d7314b1a04"
+    },
+    {
+      "path": "runs/second-1-patch-events.csv",
+      "sha256": "59c4b1eafdc843d78a9e3259d64af671db5a1354a4e6732bed3df7ccaaff20cf"
+    },
+    {
+      "path": "runs/second-1-patch-reason.csv",
+      "sha256": "cde8383c2f3c4c3f31e7bd28bc13b1aa5d0ee432c8a01fa8fde9416cd32c541f"
+    },
+    {
+      "path": "runs/second-1-patch-lifecycle.csv",
+      "sha256": "1d87c1d9183485f4a7fec873642839af1f2c6d7183cffc817a3723344238173e"
+    },
+    {
+      "path": "runs/second-1-patch-control-events.csv",
+      "sha256": "07076d70249b5186e676d2f227c59aeaef96d4eaa25b46c68c0a3e148ce7f01a"
+    },
+    {
+      "path": "runs/second-1-patch-airtime.csv",
+      "sha256": "c45e899a427eff8400fc09c3418b36ca25442cf334bcc451d5ef4d1f6ec90e9b"
+    },
+    {
+      "path": "runs/second-2-stock-events.csv",
+      "sha256": "879c0db3e08e2daedf847afe5ca1f97ab360ce73fdc31d60acbe7d720bda7d8b"
+    },
+    {
+      "path": "runs/second-2-stock-reason.csv",
+      "sha256": "4cf2bb91c43a3490cea8774eba4f6e8ef2308c0098a1d9e298b67cecb892de8c"
+    },
+    {
+      "path": "runs/second-2-stock-lifecycle.csv",
+      "sha256": "76a0724389e3fd5611a975794ef45c08fb71bcb48e0c9caa6473c0426e36d523"
+    },
+    {
+      "path": "runs/second-2-stock-control-events.csv",
+      "sha256": "a7c61bc6f9cdb7c2d5dd41df399f4020c13bc6550f368a0a6b75a61d105593a0"
+    },
+    {
+      "path": "runs/second-2-stock-airtime.csv",
+      "sha256": "59bed719810d468920d06e42faf97344c1334819f9f234fbf58d965f6894f89c"
+    },
+    {
+      "path": "runs/second-2-patch-events.csv",
+      "sha256": "e4589c0431490d3de56afa228f924d59c0751d26a12479d5fba892c9b759cc9e"
+    },
+    {
+      "path": "runs/second-2-patch-reason.csv",
+      "sha256": "6195ba1b840c84b35eb2457c8c49c29a1351e2a9b29c6092d966e7f9f7733f1d"
+    },
+    {
+      "path": "runs/second-2-patch-lifecycle.csv",
+      "sha256": "2a974183033c3623c9e34309a207bed8765e03024cd12da9b491b898e97b2ce7"
+    },
+    {
+      "path": "runs/second-2-patch-control-events.csv",
+      "sha256": "8432f4106f07a07b835c2ce2a5f07f6400983c19c300bb2a281429da824be500"
+    },
+    {
+      "path": "runs/second-2-patch-airtime.csv",
+      "sha256": "9e8074b09c9e52b25b560a0f116385f7f87c8c1d5c26ffb5342ed08070002bc2"
+    },
+    {
+      "path": "runs/second-3-stock-events.csv",
+      "sha256": "79d010007095aacfc3ffb8896828925fa4c58af05f4151a40b1b29e2aaa0dc72"
+    },
+    {
+      "path": "runs/second-3-stock-reason.csv",
+      "sha256": "fe90dc3fbcfa5555ea70a0fc0ecaa563d1aa8d570a58c7b4f6314607276ba3dc"
+    },
+    {
+      "path": "runs/second-3-stock-lifecycle.csv",
+      "sha256": "de33aa6dcac01882f5693a5fa09e51153eda5b7a4399fbd458a3b0e034c0205e"
+    },
+    {
+      "path": "runs/second-3-stock-control-events.csv",
+      "sha256": "c8c3c4ffafbb007d0f327b7fe9f2e20909cb736531ed47b2dadaddb59505129e"
+    },
+    {
+      "path": "runs/second-3-stock-airtime.csv",
+      "sha256": "668b9f683e9a223b9a63966fa41af0775044c956ed37852dca16cd82165a7a87"
+    },
+    {
+      "path": "runs/second-3-patch-events.csv",
+      "sha256": "f76a21ad925422f88e9233ee4883a8f9d33299dbc0d0207da5e3fdaf12dbf67d"
+    },
+    {
+      "path": "runs/second-3-patch-reason.csv",
+      "sha256": "ccefc576160d9ce9d4e77a0d6ac208c3d1f70be0316ec14bff307555619cf0c4"
+    },
+    {
+      "path": "runs/second-3-patch-lifecycle.csv",
+      "sha256": "3bb93f5bbbb851e78bfd0af0935456779179a5dbf2ce5f6b9c61f39866a75582"
+    },
+    {
+      "path": "runs/second-3-patch-control-events.csv",
+      "sha256": "c667354f50f0e08e5d8df4e41265b7423192295c5e8827c3f0abe0f568259675"
+    },
+    {
+      "path": "runs/second-3-patch-airtime.csv",
+      "sha256": "063ecc4c12edfb3451471933320dc2b6399fae0285c577d54d3d4b8128412ad4"
+    }
+  ],
+  "original_supporting_hashes": {
+    "build.py": "b77d6daf8e95c358e773559ceb6e62eebe258141a101f9b47f9dfd9454f952e9",
+    "run.py": "f217fc9490caa0b4dff7a313567b3dc022899035679d0c258075e89b1f725ed0",
+    "analyze.py": "31c3f4a325ae95e616153bc23284379ff1654970268710a6a4f2fd0a5b204f78",
+    "FROZEN.json": "f1d56e3893dac962e7708014f0824737896af1048c7ed14456f99790a5b47821",
+    "SUMMARY.json": "d07b78e3586b8c9104e0f02c58b19be95bfacb2f2c4f64c0a676e8fec49f9071",
+    "matrix.csv": "b7cb7d1ccb4645168f8c9fd2a377702558d0ce3fd983aa6f54385b5e8e5e94f7"
+  },
+  "header_policy": "Use pinned pristine ns-3.47 headers. Round16 has no DiagnosticAccess usage. Later round19 headers add only unused friend declarations and are not substituted.",
+  "new_wrapper_policy": "Portable build/run/analysis wrappers preserve the frozen 24-job protocol, source bytes and original analysis fields; strengthened qualifications and figure-data exports are explicitly additional checks.",
+  "distribution_layout": {
+    "code": "Sources, fixed configuration, expected derived references, and trace identity metadata; no raw traces required by the build or run.",
+    "original_raw_data": "Separate analysis_data/retention_figures/runs/ distribution. CLI --input takes its containing data root; --reference-input is optional."
+  },
+  "integrated_layout": {
+    "source_root": "code/original_cases/retention_figures/",
+    "data_root": "analysis_data/retention_figures/",
+    "historical_record_path_prefix": "runs/",
+    "distributed_trace_prefix": "analysis_data/retention_figures/runs/",
+    "path_scope": "Historical record paths are retained for source provenance; use distributed_trace_prefix for the split archive. Scientific bytes and identifiers are unchanged."
+  },
+  "prepared_date": "2026-11-09"
+}
