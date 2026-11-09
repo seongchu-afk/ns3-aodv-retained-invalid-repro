@@ -1,0 +1,8 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Original simulation inputs, measurements, result tables and explanatory documentation in this distribution are licensed under the Creative Commons Attribution 4.0 International License. This notice does not apply that license to code or existing third-party material. See NOTICE.md for the precise scopes and attribution.
+
+License: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+This notice provides the license URI; it is not a replacement for the legal code. Please retain attribution, link to the license and indicate changes when reusing the covered material.
