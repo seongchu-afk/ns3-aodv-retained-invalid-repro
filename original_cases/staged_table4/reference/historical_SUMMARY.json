@@ -1,0 +1,186 @@
+[
+  {
+    "case": "L",
+    "version": "stock",
+    "main_planned": 95,
+    "main_received": 0,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "rerr_after_invalidate"
+    ],
+    "P_qualification": null
+  },
+  {
+    "case": "L",
+    "version": "patch",
+    "main_planned": 95,
+    "main_received": 95,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "purge_after_invalidate",
+      "rerr_after_invalidate"
+    ],
+    "P_qualification": null
+  },
+  {
+    "case": "L",
+    "version": "unsafe",
+    "main_planned": 95,
+    "main_received": 95,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "purge_after_invalidate",
+      "rerr_after_invalidate"
+    ],
+    "P_qualification": null
+  },
+  {
+    "case": "E",
+    "version": "stock",
+    "main_planned": 95,
+    "main_received": 0,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "rerr_after_invalidate"
+    ],
+    "P_qualification": null
+  },
+  {
+    "case": "E",
+    "version": "patch",
+    "main_planned": 95,
+    "main_received": 95,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "purge_after_invalidate",
+      "rerr_after_invalidate"
+    ],
+    "P_qualification": null
+  },
+  {
+    "case": "E",
+    "version": "unsafe",
+    "main_planned": 95,
+    "main_received": 95,
+    "first_active_cycle": 12.276495029,
+    "active_cycle_intervals": 4,
+    "active_cycle_duration_s": 3.999807767,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "purge_after_invalidate",
+      "rerr_after_invalidate"
+    ],
+    "P_qualification": null
+  },
+  {
+    "case": "P",
+    "version": "stock",
+    "main_planned": 4,
+    "main_received": 0,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "rerr_after_invalidate"
+    ],
+    "P_qualification": true
+  },
+  {
+    "case": "P",
+    "version": "patch",
+    "main_planned": 4,
+    "main_received": 0,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "rerr_after_invalidate"
+    ],
+    "P_qualification": true
+  },
+  {
+    "case": "P",
+    "version": "unsafe",
+    "main_planned": 4,
+    "main_received": 0,
+    "first_active_cycle": 9.150392466,
+    "active_cycle_intervals": 10,
+    "active_cycle_duration_s": 3.118710097000001,
+    "packets_returning_to_prior_tx_node": 4,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "rerr_after_invalidate"
+    ],
+    "P_qualification": true
+  },
+  {
+    "case": "E2",
+    "version": "stock",
+    "main_planned": 4,
+    "main_received": 0,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "purge_after_invalidate"
+    ],
+    "P_qualification": null
+  },
+  {
+    "case": "E2",
+    "version": "patch",
+    "main_planned": 4,
+    "main_received": 4,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "purge_after_invalidate"
+    ],
+    "P_qualification": null
+  },
+  {
+    "case": "E2",
+    "version": "unsafe",
+    "main_planned": 4,
+    "main_received": 4,
+    "first_active_cycle": null,
+    "active_cycle_intervals": 0,
+    "active_cycle_duration_s": 0,
+    "packets_returning_to_prior_tx_node": 0,
+    "packets_with_repeated_IP_TX_node": 0,
+    "B_invalidation_sources": [
+      "purge_after_invalidate"
+    ],
+    "P_qualification": null
+  }
+]

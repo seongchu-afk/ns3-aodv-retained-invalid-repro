@@ -1,0 +1,13 @@
+case,version,main_planned,main_received,first_active_cycle,active_cycle_intervals,active_cycle_duration_s,packets_returning_to_prior_tx_node,packets_with_repeated_IP_TX_node,B_invalidation_sources,P_qualification
+L,stock,95,0,,0,0,0,0,['rerr_after_invalidate'],
+L,patch,95,95,,0,0,0,0,"['purge_after_invalidate', 'rerr_after_invalidate']",
+L,unsafe,95,95,,0,0,0,0,"['purge_after_invalidate', 'rerr_after_invalidate']",
+E,stock,95,0,,0,0,0,0,['rerr_after_invalidate'],
+E,patch,95,95,,0,0,0,0,"['purge_after_invalidate', 'rerr_after_invalidate']",
+E,unsafe,95,95,12.276495029,4,3.999807767,0,0,"['purge_after_invalidate', 'rerr_after_invalidate']",
+P,stock,4,0,,0,0,0,0,['rerr_after_invalidate'],True
+P,patch,4,0,,0,0,0,0,['rerr_after_invalidate'],True
+P,unsafe,4,0,9.150392466,10,3.118710097000001,4,0,['rerr_after_invalidate'],True
+E2,stock,4,0,,0,0,0,0,['purge_after_invalidate'],
+E2,patch,4,4,,0,0,0,0,['purge_after_invalidate'],
+E2,unsafe,4,4,,0,0,0,0,['purge_after_invalidate'],

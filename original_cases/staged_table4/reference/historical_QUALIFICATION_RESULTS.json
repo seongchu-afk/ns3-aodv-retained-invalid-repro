@@ -1,0 +1,618 @@
+[
+  {
+    "case": "L",
+    "version": "stock",
+    "qualified": true,
+    "first_main_B_request_state": {
+      "time": "18.500200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "1",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "1",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "8.556176233",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": {
+      "time": "12.056376466",
+      "owner_ip": "10.1.1.2",
+      "action": "rerr_after_invalidate",
+      "destination": "10.1.1.4",
+      "flag": "1",
+      "next_hop": "10.1.1.1",
+      "lifetime": "15",
+      "valid_sequence": "1",
+      "sequence": "0",
+      "hops": "2"
+    },
+    "precondition_rows": [],
+    "perturbation_detail": null
+  },
+  {
+    "case": "L",
+    "version": "patch",
+    "qualified": true,
+    "first_main_B_request_state": {
+      "time": "18.500200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "1",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "1",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "8.556176233",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": {
+      "time": "12.056376466",
+      "owner_ip": "10.1.1.2",
+      "action": "rerr_after_invalidate",
+      "destination": "10.1.1.4",
+      "flag": "1",
+      "next_hop": "10.1.1.1",
+      "lifetime": "15",
+      "valid_sequence": "1",
+      "sequence": "0",
+      "hops": "2"
+    },
+    "precondition_rows": [],
+    "perturbation_detail": null
+  },
+  {
+    "case": "L",
+    "version": "unsafe",
+    "qualified": true,
+    "first_main_B_request_state": {
+      "time": "18.500200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "1",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "1",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "8.556176233",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": {
+      "time": "12.056376466",
+      "owner_ip": "10.1.1.2",
+      "action": "rerr_after_invalidate",
+      "destination": "10.1.1.4",
+      "flag": "1",
+      "next_hop": "10.1.1.1",
+      "lifetime": "15",
+      "valid_sequence": "1",
+      "sequence": "0",
+      "hops": "2"
+    },
+    "precondition_rows": [],
+    "perturbation_detail": null
+  },
+  {
+    "case": "E",
+    "version": "stock",
+    "qualified": false,
+    "first_main_B_request_state": {
+      "time": "22.408200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "6",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "1",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "8.868102563",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": {
+      "time": "16.276302796",
+      "owner_ip": "10.1.1.2",
+      "action": "rerr_after_invalidate",
+      "destination": "10.1.1.4",
+      "flag": "1",
+      "next_hop": "10.1.1.1",
+      "lifetime": "15",
+      "valid_sequence": "1",
+      "sequence": "0",
+      "hops": "2"
+    },
+    "precondition_rows": [],
+    "perturbation_detail": null
+  },
+  {
+    "case": "E",
+    "version": "patch",
+    "qualified": false,
+    "first_main_B_request_state": null,
+    "prior_invalidation": null,
+    "precondition_rows": [],
+    "perturbation_detail": null
+  },
+  {
+    "case": "E",
+    "version": "unsafe",
+    "qualified": false,
+    "first_main_B_request_state": {
+      "time": "18.503200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "2",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "1",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "12.773102563",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": {
+      "time": "16.276302796",
+      "owner_ip": "10.1.1.2",
+      "action": "rerr_after_invalidate",
+      "destination": "10.1.1.4",
+      "flag": "1",
+      "next_hop": "10.1.1.1",
+      "lifetime": "15",
+      "valid_sequence": "1",
+      "sequence": "0",
+      "hops": "2"
+    },
+    "precondition_rows": [],
+    "perturbation_detail": null
+  },
+  {
+    "case": "P",
+    "version": "stock",
+    "qualified": true,
+    "first_main_B_request_state": {
+      "time": "9.150200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "1",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "0",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "7.312657631",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": null,
+    "precondition_rows": [
+      {
+        "phase": "before",
+        "node": "0",
+        "pass": "1"
+      },
+      {
+        "phase": "before",
+        "node": "1",
+        "pass": "1"
+      },
+      {
+        "phase": "perturb",
+        "node": "0",
+        "pass": "1"
+      }
+    ],
+    "perturbation_detail": {
+      "S_before": {
+        "time": "9.1",
+        "snapshot": "92",
+        "node": "0",
+        "present": "1",
+        "flag": "0",
+        "valid_seq": "1",
+        "seq": "0",
+        "next_hop": "10.1.1.4",
+        "hops": "1",
+        "expiry": "16.457269165"
+      },
+      "S_after": {
+        "time": "9.1",
+        "snapshot": "93",
+        "node": "0",
+        "present": "1",
+        "flag": "1",
+        "valid_seq": "1",
+        "seq": "0",
+        "next_hop": "10.1.1.4",
+        "hops": "1",
+        "expiry": "24.1"
+      },
+      "B_at_perturbation": [
+        {
+          "time": "9.1",
+          "snapshot": "92",
+          "node": "1",
+          "present": "1",
+          "flag": "0",
+          "valid_seq": "1",
+          "seq": "0",
+          "next_hop": "10.1.1.1",
+          "hops": "2",
+          "expiry": "16.462857864"
+        },
+        {
+          "time": "9.1",
+          "snapshot": "93",
+          "node": "1",
+          "present": "1",
+          "flag": "0",
+          "valid_seq": "1",
+          "seq": "0",
+          "next_hop": "10.1.1.1",
+          "hops": "2",
+          "expiry": "16.462857864"
+        }
+      ],
+      "only_state_and_lifetime_changed": true
+    }
+  },
+  {
+    "case": "P",
+    "version": "patch",
+    "qualified": true,
+    "first_main_B_request_state": {
+      "time": "9.150200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "1",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "0",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "7.312657631",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": null,
+    "precondition_rows": [
+      {
+        "phase": "before",
+        "node": "0",
+        "pass": "1"
+      },
+      {
+        "phase": "before",
+        "node": "1",
+        "pass": "1"
+      },
+      {
+        "phase": "perturb",
+        "node": "0",
+        "pass": "1"
+      }
+    ],
+    "perturbation_detail": {
+      "S_before": {
+        "time": "9.1",
+        "snapshot": "92",
+        "node": "0",
+        "present": "1",
+        "flag": "0",
+        "valid_seq": "1",
+        "seq": "0",
+        "next_hop": "10.1.1.4",
+        "hops": "1",
+        "expiry": "16.457269165"
+      },
+      "S_after": {
+        "time": "9.1",
+        "snapshot": "93",
+        "node": "0",
+        "present": "1",
+        "flag": "1",
+        "valid_seq": "1",
+        "seq": "0",
+        "next_hop": "10.1.1.4",
+        "hops": "1",
+        "expiry": "24.1"
+      },
+      "B_at_perturbation": [
+        {
+          "time": "9.1",
+          "snapshot": "92",
+          "node": "1",
+          "present": "1",
+          "flag": "0",
+          "valid_seq": "1",
+          "seq": "0",
+          "next_hop": "10.1.1.1",
+          "hops": "2",
+          "expiry": "16.462857864"
+        },
+        {
+          "time": "9.1",
+          "snapshot": "93",
+          "node": "1",
+          "present": "1",
+          "flag": "0",
+          "valid_seq": "1",
+          "seq": "0",
+          "next_hop": "10.1.1.1",
+          "hops": "2",
+          "expiry": "16.462857864"
+        }
+      ],
+      "only_state_and_lifetime_changed": true
+    }
+  },
+  {
+    "case": "P",
+    "version": "unsafe",
+    "qualified": true,
+    "first_main_B_request_state": {
+      "time": "9.150200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "1",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "0",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "7.312657631",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": null,
+    "precondition_rows": [
+      {
+        "phase": "before",
+        "node": "0",
+        "pass": "1"
+      },
+      {
+        "phase": "before",
+        "node": "1",
+        "pass": "1"
+      },
+      {
+        "phase": "perturb",
+        "node": "0",
+        "pass": "1"
+      }
+    ],
+    "perturbation_detail": {
+      "S_before": {
+        "time": "9.1",
+        "snapshot": "92",
+        "node": "0",
+        "present": "1",
+        "flag": "0",
+        "valid_seq": "1",
+        "seq": "0",
+        "next_hop": "10.1.1.4",
+        "hops": "1",
+        "expiry": "16.457269165"
+      },
+      "S_after": {
+        "time": "9.1",
+        "snapshot": "93",
+        "node": "0",
+        "present": "1",
+        "flag": "1",
+        "valid_seq": "1",
+        "seq": "0",
+        "next_hop": "10.1.1.4",
+        "hops": "1",
+        "expiry": "24.1"
+      },
+      "B_at_perturbation": [
+        {
+          "time": "9.1",
+          "snapshot": "92",
+          "node": "1",
+          "present": "1",
+          "flag": "0",
+          "valid_seq": "1",
+          "seq": "0",
+          "next_hop": "10.1.1.1",
+          "hops": "2",
+          "expiry": "16.462857864"
+        },
+        {
+          "time": "9.1",
+          "snapshot": "93",
+          "node": "1",
+          "present": "1",
+          "flag": "0",
+          "valid_seq": "1",
+          "seq": "0",
+          "next_hop": "10.1.1.1",
+          "hops": "2",
+          "expiry": "16.462857864"
+        }
+      ],
+      "only_state_and_lifetime_changed": true
+    }
+  },
+  {
+    "case": "E2",
+    "version": "stock",
+    "qualified": true,
+    "first_main_B_request_state": {
+      "time": "28.509200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "1",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "1",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "4.548992",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": {
+      "time": "18.058192233",
+      "owner_ip": "10.1.1.2",
+      "action": "purge_after_invalidate",
+      "destination": "10.1.1.4",
+      "flag": "1",
+      "next_hop": "10.1.1.1",
+      "lifetime": "15",
+      "valid_sequence": "1",
+      "sequence": "0",
+      "hops": "2"
+    },
+    "precondition_rows": [],
+    "perturbation_detail": {
+      "first_invalidation_before_movement": {
+        "time": "18.058192233",
+        "owner_ip": "10.1.1.2",
+        "action": "purge_after_invalidate",
+        "destination": "10.1.1.4",
+        "flag": "1",
+        "next_hop": "10.1.1.1",
+        "lifetime": "15",
+        "valid_sequence": "1",
+        "sequence": "0",
+        "hops": "2"
+      },
+      "continuous_same_entry_snapshots": 43,
+      "continuous_INVALID_same_next_seq": true,
+      "earlier_target_RERR_events": [],
+      "warm_received_before_invalidation": 40
+    }
+  },
+  {
+    "case": "E2",
+    "version": "patch",
+    "qualified": true,
+    "first_main_B_request_state": {
+      "time": "28.509200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "1",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "1",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "4.548992",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": {
+      "time": "18.058192233",
+      "owner_ip": "10.1.1.2",
+      "action": "purge_after_invalidate",
+      "destination": "10.1.1.4",
+      "flag": "1",
+      "next_hop": "10.1.1.1",
+      "lifetime": "15",
+      "valid_sequence": "1",
+      "sequence": "0",
+      "hops": "2"
+    },
+    "precondition_rows": [],
+    "perturbation_detail": {
+      "first_invalidation_before_movement": {
+        "time": "18.058192233",
+        "owner_ip": "10.1.1.2",
+        "action": "purge_after_invalidate",
+        "destination": "10.1.1.4",
+        "flag": "1",
+        "next_hop": "10.1.1.1",
+        "lifetime": "15",
+        "valid_sequence": "1",
+        "sequence": "0",
+        "hops": "2"
+      },
+      "continuous_same_entry_snapshots": 43,
+      "continuous_INVALID_same_next_seq": true,
+      "earlier_target_RERR_events": [],
+      "warm_received_before_invalidation": 40
+    }
+  },
+  {
+    "case": "E2",
+    "version": "unsafe",
+    "qualified": true,
+    "first_main_B_request_state": {
+      "time": "28.509200233",
+      "node": "1",
+      "previous_ip": "10.1.1.1",
+      "origin": "10.1.1.1",
+      "request_id": "1",
+      "destination": "10.1.1.4",
+      "hop": "1",
+      "reason": "destination_route_present",
+      "route_flag": "1",
+      "next_hop": "10.1.1.1",
+      "route_lifetime": "4.548992",
+      "valid_sequence": "1",
+      "route_sequence": "0",
+      "route_hops": "2"
+    },
+    "prior_invalidation": {
+      "time": "18.058192233",
+      "owner_ip": "10.1.1.2",
+      "action": "purge_after_invalidate",
+      "destination": "10.1.1.4",
+      "flag": "1",
+      "next_hop": "10.1.1.1",
+      "lifetime": "15",
+      "valid_sequence": "1",
+      "sequence": "0",
+      "hops": "2"
+    },
+    "precondition_rows": [],
+    "perturbation_detail": {
+      "first_invalidation_before_movement": {
+        "time": "18.058192233",
+        "owner_ip": "10.1.1.2",
+        "action": "purge_after_invalidate",
+        "destination": "10.1.1.4",
+        "flag": "1",
+        "next_hop": "10.1.1.1",
+        "lifetime": "15",
+        "valid_sequence": "1",
+        "sequence": "0",
+        "hops": "2"
+      },
+      "continuous_same_entry_snapshots": 43,
+      "continuous_INVALID_same_next_seq": true,
+      "earlier_target_RERR_events": [],
+      "warm_received_before_invalidation": 40
+    }
+  }
+]

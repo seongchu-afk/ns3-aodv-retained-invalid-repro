@@ -1,0 +1,13 @@
+case,version,planned,received,qualified,active_cycle_intervals,active_cycle_duration_s,strict_returned_datagrams,strict_source_main_sequences,repeated_physical_tx_datagrams
+L,stock,95,0,True,0,0,0,0,0
+L,patch,95,95,True,0,0,0,0,0
+L,unsafe,95,95,True,0,0,0,0,0
+E,stock,95,0,False,0,0,0,0,0
+E,patch,95,95,False,0,0,0,0,0
+E,unsafe,95,95,False,4,3.999807767,0,0,0
+E2,stock,4,0,True,0,0,0,0,0
+E2,patch,4,4,True,0,0,0,0,0
+E2,unsafe,4,4,True,0,0,0,0,0
+P,stock,4,0,True,0,0,0,0,0
+P,patch,4,0,True,0,0,0,0,0
+P,unsafe,4,0,True,10,3.118710097000001,4,4,0
