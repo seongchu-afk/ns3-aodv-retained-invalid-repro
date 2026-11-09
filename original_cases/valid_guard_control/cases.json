@@ -1,0 +1,14 @@
+[
+  {
+    "name": "valid_negative_patch",
+    "harness": "observer",
+    "injection_s": "18",
+    "expected_qualification": false
+  },
+  {
+    "name": "valid_negative_shifted",
+    "harness": "negative_shifted",
+    "injection_s": "18.05",
+    "expected_qualification": true
+  }
+]

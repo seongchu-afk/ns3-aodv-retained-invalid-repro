@@ -1,0 +1,4 @@
+private_validation/
+raw/
+__pycache__/
+*.pyc

@@ -1,0 +1,38 @@
+{
+  "protocol": "AODV",
+  "fixture": "negative",
+  "run": 1,
+  "seed": 20261030,
+  "arp_dead_timeout_s": 3,
+  "diagnostic": 1,
+  "mobility": "mobility/negative.csv",
+  "simulation_stop_s": 45,
+  "packet_interval_s": "0.1",
+  "packet_bytes": 512,
+  "wifi": "802.11g",
+  "data_mode": "ErpOfdmRate6Mbps",
+  "control_mode": "ErpOfdmRate6Mbps",
+  "channel": "1, 20 MHz, 2.4 GHz",
+  "tx_power_dbm": 16,
+  "log_distance_exponent": 3,
+  "reference_loss_db": "40.0953292912456",
+  "wifi_stream_start": 1000,
+  "aodv_stream_start": 2000,
+  "request": {
+    "origin": "10.1.1.1",
+    "destination": "10.1.1.4",
+    "request_id": 9001,
+    "origin_sequence": 100,
+    "destination_sequence": 0,
+    "ttl": 5,
+    "destination_only": false,
+    "gratuitous_reply": false
+  },
+  "roles": {
+    "S": 0,
+    "B": 1,
+    "C": 2,
+    "D": 3
+  },
+  "negative_reply_window_s": "0.01"
+}

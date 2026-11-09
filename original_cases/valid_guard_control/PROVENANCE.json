@@ -1,0 +1,86 @@
+{
+  "module": "wireless_valid_guard_control",
+  "prepared_date": "2026-11-09",
+  "upstream": {
+    "version": "ns-3.47",
+    "source_url": "https://www.nsnam.org/releases/ns-3-47/",
+    "archive_name": "ns-3.47.tar.bz2",
+    "archive_sha256": "8b3adca956c834ea436b915986ab8fd053e90041acae7426895d595aaa3ccc39"
+  },
+  "source_files": [
+    {
+      "path": "sources/observer.cc",
+      "original": "round15_invalid_guard/observer.cc",
+      "original_sha256": "e951c6bcf7e688cb501531845c75802e3a2c11c3a787da35731ce9b1086d495d",
+      "current_sha256": "61b73f5441e21dec48f52bedcebe128468571e3001b9b1d774e6c1c27397c985",
+      "modification": "2026-11-09: comment-only provenance and GPL-2.0-only notice"
+    },
+    {
+      "path": "sources/negative_shifted.cc",
+      "original": "round15_invalid_guard/negative_shifted.cc",
+      "original_sha256": "be5696bc7442ed54e6e204c727c80adfa39b17de61b1f3a9616d689b0de01a96",
+      "current_sha256": "b70d74227ad336b407ad54baa8bb89b4013fcf329943f99663f77c014c0bdbb8",
+      "modification": "2026-11-09: comment-only provenance and GPL-2.0-only notice"
+    },
+    {
+      "path": "sources/patch-routing.cc",
+      "original": "round15_invalid_guard/patched_aodv-routing-protocol.cc",
+      "original_sha256": "694d046abe5c2b2c9d01a74a144dff34afda06d2ee88e8f9122679179d765a21",
+      "current_sha256": "bdb2340f41361a1349e07fc901a9bfa2f14af4c2cb1da42603ee5e07af3ad45a",
+      "modification": "2026-11-09: comment-only provenance notice; original upstream notices retained"
+    }
+  ],
+  "mobility": {
+    "path": "mobility/negative.csv",
+    "original": "round15_invalid_guard/negative.csv",
+    "sha256": "cd59cf69d785b69370fed484ef4ca3e12e6ff2a87df341d3a814c02e94765640"
+  },
+  "raw_files": [
+    {
+      "path": "raw/traces/valid_negative_patch-airtime.csv",
+      "original": "round15_invalid_guard/runs/valid_negative_patch-airtime.csv",
+      "sha256": "4bd7617842f8c65050647856bea5ec73269afda47c5c722b442da2c1e244be5a",
+      "bytes": 78440
+    },
+    {
+      "path": "raw/traces/valid_negative_patch-control-events.csv",
+      "original": "round15_invalid_guard/runs/valid_negative_patch-control-events.csv",
+      "sha256": "10ef0c94d9fa0ae78209d3d6fff17de35f82f38d260fc7e674048b464bbd3ec2",
+      "bytes": 122628
+    },
+    {
+      "path": "raw/traces/valid_negative_patch-reason.csv",
+      "original": "round15_invalid_guard/runs/valid_negative_patch-reason.csv",
+      "sha256": "8a022e5b10990f115805ea4206b4df0fb5ddc316f1f6bd6cd3c94532ae0f6afb",
+      "bytes": 393
+    },
+    {
+      "path": "raw/traces/valid_negative_shifted-airtime.csv",
+      "original": "round15_invalid_guard/runs/valid_negative_shifted-airtime.csv",
+      "sha256": "b00079b91cdb6e87fd3c59ad3483309dc6d3bec32da8f9fe36979dc55acba7a3",
+      "bytes": 78090
+    },
+    {
+      "path": "raw/traces/valid_negative_shifted-control-events.csv",
+      "original": "round15_invalid_guard/runs/valid_negative_shifted-control-events.csv",
+      "sha256": "4b0fa75222e8e572052a4e467d92faf7bc83d8c09160dabde3b17a217ec21209",
+      "bytes": 122738
+    },
+    {
+      "path": "raw/traces/valid_negative_shifted-reason.csv",
+      "original": "round15_invalid_guard/runs/valid_negative_shifted-reason.csv",
+      "sha256": "06ec9f0ab24c086feea30f6ee56c1e9d00acae21cb78b55979fcec6e9baec0e5",
+      "bytes": 505
+    }
+  ],
+  "comparison": "Harness bodies differ only by RREQ scheduling at 18 versus 18.05 seconds.",
+  "chronology": "The initial wireless fixture failed reception qualification; the timing correction followed that failure. No preregistration claim is made.",
+  "raw_selection": "Six CSVs only: reason, control-events, and airtime for each attempt. General observer byproducts are not included in the public data.",
+  "integrated_layout": {
+    "source_root": "code/original_cases/valid_guard_control/",
+    "data_root": "analysis_data/valid_guard_control/",
+    "historical_record_path_prefix": "raw/traces/",
+    "distributed_trace_prefix": "analysis_data/valid_guard_control/traces/",
+    "path_scope": "Historical record paths are retained for source provenance; use distributed_trace_prefix for the split archive. Scientific bytes and identifiers are unchanged."
+  }
+}

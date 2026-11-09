@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "prepared_date": "2026-11-09",
+  "ns3_version": "3.47",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "fresh_compilation": true,
+  "old_research_binaries_reused": false,
+  "simulations": [
+    {
+      "name": "valid_negative_patch",
+      "returncode": 0
+    },
+    {
+      "name": "valid_negative_shifted",
+      "returncode": 0
+    }
+  ],
+  "simulation_executions_per_case": 1,
+  "public_trace_count": 6,
+  "public_reference_byte_matches": 6,
+  "private_full_output_byte_comparison": {
+    "matched": 26,
+    "total": 26,
+    "public": false
+  },
+  "source_body_integrity": true,
+  "harness_only_difference": "injection time: 18 -> 18.05 s",
+  "source_only_external_six_csv_analysis": true,
+  "source_only_generated_input_without_reference_analysis": true,
+  "each_required_csv_missing_is_rejected": true,
+  "negative_evidence_mutation_tests": 8,
+  "full_execution": "The same build, run, and analyze stages used by REPRODUCE full were executed separately once; no second simulation was run to exercise the single-command wrapper.",
+  "initial_case_qualified": false,
+  "shifted_case_qualified": true,
+  "shifted_guard_time_s": "18.050200233",
+  "source_release_privacy_scan": "PASS"
+}
