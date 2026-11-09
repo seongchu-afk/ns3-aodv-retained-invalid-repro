@@ -1,11 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite this versioned reproducibility package if you use the software or data."
+message: "If you use this package, cite the version-specific DOI."
 title: "Retained Invalid Routes Can Suppress Route Discovery in ns-3 AODV: minimal reproducibility package"
 type: software
-version: 2.0.0
-date-released: 2026-11-09
+version: 2.0.1
 repository-code: "https://github.com/seongchu-afk/ns3-aodv-retained-invalid-repro"
-doi: 10.5281/zenodo.23827740
+doi: 10.5281/zenodo.24090944
 authors:
   - family-names: Zhang
     given-names: Xingqiu

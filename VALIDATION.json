@@ -1,65 +1,182 @@
 {
-  "date_utc": "2026-11-09",
-  "status": "passed within the listed scope",
-  "python": "3.12.14",
-  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
-  "dependencies": {
-    "cmake": "4.4.4",
-    "ninja": "1.13.2",
-    "numpy": "2.3.5",
-    "scipy": "1.17.0"
+  "version": "2.0.1",
+  "status": "PASS within the explicitly listed analysis, fresh simulation, and workflow scopes",
+  "v2_0_0_validation_record": {
+    "date_utc": "2026-11-09",
+    "status": "passed within the listed scope",
+    "python": "3.12.14",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "dependencies": {
+      "cmake": "4.4.4",
+      "ninja": "1.13.2",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "official_archive_sha256": "8b3adca956c834ea436b915986ab8fd053e90041acae7426895d595aaa3ccc39",
+    "fresh_upstream_build": {
+      "new_extraction": true,
+      "reused_historical_binaries": false,
+      "pinned_dependencies_freshly_installed": true,
+      "ns3_libraries_only_from_clean_tree": true
+    },
+    "v2_entrypoint_sha256": "a525af100cdac5a49dc767821c91cc45124e418f7a321651eec3cd555db61d34",
+    "analysis": {
+      "strict_return_unit_tests": 15,
+      "temporal_natural_combined_cases": 195,
+      "ensemble_per_run_records": 240,
+      "reference_outputs_byte_equal": 8
+    },
+    "fresh_revision_simulation": {
+      "temporal_natural_combined_cases": 195,
+      "scientific_csvs_byte_equal_to_original": 975,
+      "handler_reference_csvs_byte_equal": 12,
+      "ensemble_smoke_simulations": 2,
+      "ensemble_scalar_values_matching_reference": 20,
+      "natural_baseline_delivery": [
+        0,
+        4
+      ],
+      "temporal_baseline_stock_patch_unsafe_delivery": [
+        195,
+        195,
+        271
+      ],
+      "unsafe_baseline_strict_return_identities": 32,
+      "full_240_ensemble_rerun": false
+    },
+    "original_manuscript_fresh_base": {
+      "S1_handler_checks": 198,
+      "S2": "Unchanged settings table, not a generated result.",
+      "S3_critical_trace_files_byte_equal_to_original": 8,
+      "S4_paired_environments": 6,
+      "S4_regenerated_csv_byte_equal": true,
+      "optional_new_queue_observer_enabled": false
+    },
+    "provenance_limitations": [
+      "Original S3 additional queue-observer source and direct trace were not recovered.",
+      "A separately labelled optional new observer reproduced 31 FIFO evictions and 64 retry-exhaustion drops against the existing pinned base. It is not the recovered original observer and was not used for the fresh original-source validation.",
+      "All 240 revision ensemble measurements were reanalyzed; only one stock/patch pair of that revision ensemble was freshly rerun. This is not a full 435-run revision rerun.",
+      "The separate original S4 six paired environments were all freshly rerun and are not counted as the 240-run revision ensemble."
+    ],
+    "release_finalization": {
+      "version": "2.0.0",
+      "scientific_code_change": "none; dated comment-only modification notices added to modified ns-3-derived files",
+      "scientific_csv_change": "none",
+      "analysis_revalidated_after_finalization": true,
+      "reference_outputs_byte_equal_after_finalization": 8
+    }
   },
-  "official_archive_sha256": "8b3adca956c834ea436b915986ab8fd053e90041acae7426895d595aaa3ccc39",
-  "fresh_upstream_build": {
-    "new_extraction": true,
-    "reused_historical_binaries": false,
-    "pinned_dependencies_freshly_installed": true,
-    "ns3_libraries_only_from_clean_tree": true
+  "fresh_full_240_ensemble_rerun": {
+    "status": "PASS",
+    "date_utc": "2026-11-09",
+    "fresh_simulations": 240,
+    "matched_per_run_records": 240,
+    "record_fields_compared": 3360,
+    "fields": [
+      "environment",
+      "run",
+      "version",
+      "exit_code",
+      "planned",
+      "received",
+      "pdr",
+      "control_bytes",
+      "control_frames",
+      "control_airtime_ns",
+      "retry_frames",
+      "app_window_control_bytes",
+      "app_window_control_frames",
+      "app_window_control_airtime_ns"
+    ],
+    "derived_reference_outputs_byte_equal": {
+      "paired_runs.csv": "ee9eaba6cc14a9cb205e3fbbfbf205d22244c223d102b619e525522fdee80878",
+      "ensemble_summary.csv": "7c4140a1976bdc9a121a6b7a4d5f4e0ac187b950e4f2930184fc02fda6f67f29",
+      "ensemble_summary.json": "1adc993546424734087cbcb14ed575aa45c994f3385e8626487b29c7fd795809"
+    },
+    "official_archive_sha256": "8b3adca956c834ea436b915986ab8fd053e90041acae7426895d595aaa3ccc39",
+    "compilation_scope": "Release-final scientific sources compiled against the previously clean official ns-3.47 build; no historical research binaries or cached run results used. This rerun did not rebuild the unchanged official base again.",
+    "source_harness_sha256": "da76475b96dbe7710f8b258727a6b0a8e3096070845b3c67d1ec525dd251f602",
+    "runner_sha256": "ebdba0e4e385547c85c51cdf89cc46c56e7195533469ae01938803a181a86959",
+    "binary_sha256": "40da71ba06c92a9523a32a9b21d61fc5a5310bc3962f095d9b04454e6d0458d1",
+    "version_library_sha256": {
+      "stock": "f71f53c56a476a2053c2daa2b881a29cbbc35b8b93031eabf3c89b6d483c1fb4",
+      "patch": "6bda20ceb7d831e3e1d2050126c9e63fcb0688840dda1bcffa7eae52f4f2b143"
+    },
+    "raw_trace_comparison": "Not claimed: this report compares all distributed per-run scientific fields and all three derived reference tables, not every generated low-level CSV byte.",
+    "source_harness_path": "experiments/sources/ensemble.cc"
   },
-  "v2_entrypoint_sha256": "a525af100cdac5a49dc767821c91cc45124e418f7a321651eec3cd555db61d34",
-  "analysis": {
-    "strict_return_unit_tests": 15,
-    "temporal_natural_combined_cases": 195,
+  "corrective_integration_checks": {
+    "archive_only_analysis": "PASS from separately created/extracted archive in relocated path with spaces; caller working directory outside archive",
+    "code_and_data_unchanged_after_analysis": true,
+    "revision_cases": 195,
     "ensemble_per_run_records": 240,
-    "reference_outputs_byte_equal": 8
+    "baseline_reference_outputs_byte_equal": 8,
+    "strict_return_tests": 15,
+    "staged_cases": 12,
+    "staged_synthetic_tests": 26,
+    "retention_executions": 24,
+    "retention_original_raw_hash_matches": 120,
+    "valid_control_cases": 2,
+    "valid_original_csv_inputs": 6,
+    "negative_chain_reference_outputs_byte_equal": 5,
+    "original1_reference_outputs_byte_equal": 5,
+    "new_queue_fifo_evictions": 31,
+    "new_queue_retry_exhaustion_drops": 64,
+    "coverage_entries": {
+      "figures": 6,
+      "tables": 7,
+      "additional_narratives": 2
+    },
+    "wrapper_no_simulation_checks": 12,
+    "python_sources_syntax_checked": 35,
+    "independent_originals_end_to_end": "PASS: source-only code copy, newly extracted and built official ns-3.47 base, newly compiled research harnesses, full originals workflow with optional external reference comparisons",
+    "all_240_low_level_csv_bytes_compared": false,
+    "v2_0_0_files_modified": false,
+    "independent_manuscript_coverage_review": "PASS for numerical and event evidence: six figures, seven tables and two narrative entries; no automatic publication-layout redraw claim"
   },
-  "fresh_revision_simulation": {
-    "temporal_natural_combined_cases": 195,
-    "scientific_csvs_byte_equal_to_original": 975,
-    "handler_reference_csvs_byte_equal": 12,
-    "ensemble_smoke_simulations": 2,
-    "ensemble_scalar_values_matching_reference": 20,
-    "natural_baseline_delivery": [
+  "fresh_revision_195_scope": "Previously completed fresh official-base reproduction; 195 executions and all 975 scientific CSVs byte-identical. Original v2.0.0 validation record below is preserved as historical evidence.",
+  "interpretation": "195 plus 240 revision simulations have now been freshly executed in separate validation stages. This is not a claim that the newly integrated full command itself was executed end-to-end or that all 240 low-level CSV bytes were compared.",
+  "fresh_originals_workflow": {
+    "status": "PASS",
+    "official_archive_sha256": "8b3adca956c834ea436b915986ab8fd053e90041acae7426895d595aaa3ccc39",
+    "base": "New extraction, configuration and build of the official ns-3.47 archive in an isolated source-only copy; no previously built upstream tree reused.",
+    "research_compilation": "All scientific harnesses and variants newly compiled; no old research binaries or run cache used.",
+    "workflow": "REPRODUCE.py originals --archive /path/to/ns-3.47.tar.bz2 --output /fresh/output --reference-input /path/to/analysis_data --jobs 4",
+    "original_S1_handler_calls": 198,
+    "original_S3_stock_patch_main_delivery": [
       0,
-      4
+      95
     ],
-    "temporal_baseline_stock_patch_unsafe_delivery": [
-      195,
-      195,
-      271
-    ],
-    "unsafe_baseline_strict_return_identities": 32,
-    "full_240_ensemble_rerun": false
-  },
-  "original_manuscript_fresh_base": {
-    "S1_handler_checks": 198,
-    "S2": "Unchanged settings table, not a generated result.",
-    "S3_critical_trace_files_byte_equal_to_original": 8,
-    "S4_paired_environments": 6,
-    "S4_regenerated_csv_byte_equal": true,
-    "optional_new_queue_observer_enabled": false
-  },
-  "provenance_limitations": [
-    "Original S3 additional queue-observer source and direct trace were not recovered.",
-    "A separately labelled optional new observer reproduced 31 FIFO evictions and 64 retry-exhaustion drops against the existing pinned base. It is not the recovered original observer and was not used for the fresh original-source validation.",
-    "All 240 revision ensemble measurements were reanalyzed; only one stock/patch pair of that revision ensemble was freshly rerun. This is not a full 435-run revision rerun.",
-    "The separate original S4 six paired environments were all freshly rerun and are not counted as the 240-run revision ensemble."
-  ],
-  "release_finalization": {
-    "version": "2.0.0",
-    "scientific_code_change": "none; dated comment-only modification notices added to modified ns-3-derived files",
-    "scientific_csv_change": "none",
-    "analysis_revalidated_after_finalization": true,
-    "reference_outputs_byte_equal_after_finalization": 8
+    "original_S3_main_packets_per_implementation": 95,
+    "original_S4_paired_environments": 6,
+    "original_S4_table_bytes_equal": true,
+    "staged_executions": 12,
+    "staged_reference_csvs_compared": 96,
+    "staged_reference_csvs_byte_equal": 96,
+    "retention_executions": 24,
+    "retention_original_csv_hash_matches": 120,
+    "retention_external_reference_csvs_byte_equal": 120,
+    "wireless_VALID_executions": 2,
+    "wireless_VALID_reference_csvs_byte_equal": 6,
+    "wireless_VALID_initial_qualified": false,
+    "wireless_VALID_corrected_qualified": true,
+    "negative_chain": {
+      "reference_outputs_byte_equal": 5
+    },
+    "original1_localization": {
+      "reference_outputs_byte_equal": 5
+    },
+    "new_queue_observer": {
+      "fifo_evictions": 31,
+      "retry_exhaustion_drops": 64,
+      "raw_csv_byte_equal_to_distributed_supporting_evidence": true,
+      "historical_additional_observer_recovered": false
+    },
+    "final_report_wording_recheck": {
+      "status": "PASS",
+      "scope": "Final original_tables/analyze.py and final coverage validator rerun on the completed fresh outputs after one report-string clarification; no simulation repeated and no analysis algorithm changed.",
+      "output_csv_files_unchanged": 743
+    },
+    "fresh_integrated_full_command_executed": false
   }
 }

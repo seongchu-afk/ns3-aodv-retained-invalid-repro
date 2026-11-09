@@ -29,3 +29,9 @@ The INVALID-only protocol change is isolated in patches/ns-3.47-invalid-only.pat
 - original_tables/sources/natural95/stock-routing.cc
 - original_tables/sources/six/patch-routing.cc
 - original_tables/sources/six/stock-routing.cc
+
+## Corrective packaging, 2026-11-09
+
+v2.0.1 integrates separately inventoried original-paper modules without changing scientific C++/CSV bytes or baseline references. The root REPRODUCE.py adds unified orchestration, clean upstream rebuilding, read-only archive analysis and per-module outputs. original_tables/supplementary_observer/verify.py adds only optional report placement via --output, preserving its assertions. Metadata, path references, inventories, coverage and licensing documentation are updated. All added scientific-source modifications were already documented in each source module's dated notices and provenance.
+
+The final `original_tables/analyze.py` changes one S3 report string only, clarifying that the historical additional direct queue source and trace remain unrecovered while the optional new observer is validated separately. Its measurement and assertion logic are unchanged. The final analyzer and coverage validator were rerun on the completed originals outputs; all 743 output CSV files remained byte-identical.

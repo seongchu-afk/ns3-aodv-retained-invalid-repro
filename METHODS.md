@@ -15,3 +15,9 @@ One-factor settings vary retention, retries, queue capacity, queue lifetime and 
 Synchronous routing-table snapshots monitor destination 10.1.1.4. The analysis distinguishes any instantaneous snapshot cycle from final-state-at-timestamp positive-duration cycles; durations are last-observation-carried-forward estimates, not continuous observations. INVALID→IN_SEARCH→VALID lineage stops at true absence.
 
 Strict return detection compares node, IPv4 source/destination/protocol/identification, application flow and sequence. Non-loopback TX must be at a strictly earlier printed decimal timestamp, with a higher TTL than RX. Packet UID is auxiliary evidence. The observer covers logged study UDP data across observed nodes, not all protocols or unrecorded traffic; UDP source ports, payload hashes and fragmentation offsets are not recorded. All 195 original source/main-flow sequence sets remain unchanged by the stricter predicate. All three unsafe baselines have 32 returned identities.
+
+## Corrective original-paper modules
+
+Original staged Table 4 uses twelve executions and its disclosed expiry-truncated snapshot policy. The separate original retention experiment uses 24 whole runs; it is not the 78-case natural sensitivity study. The wireless VALID control preserves both its initially unqualified fixture and corrected injection. Figure 5 and original1 localization derive from documented six-suite selections. MANUSCRIPT_COVERAGE.md states the exact distinction for every figure and table.
+
+“TX” and “RX” in the strict packet-return predicate refer to non-loopback IPv4 interface events, not a guarantee of over-the-air DATA PPDU emission. Physical emission evidence requires the separate airtime/PPDU records. No scientific condition was changed by this terminology clarification.

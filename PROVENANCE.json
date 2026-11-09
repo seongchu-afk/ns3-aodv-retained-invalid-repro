@@ -296,5 +296,14 @@
       "transformation": "none"
     }
   ],
-  "release_modification_notices": "Version 2.0.0 adds comment-only dated GPL notices to modified upstream-derived source files. Executable scientific content is preserved. See MODIFICATIONS.md."
+  "release_modification_notices": "Version 2.0.0 adds comment-only dated GPL notices to modified upstream-derived source files. Executable scientific content is preserved. See MODIFICATIONS.md.",
+  "corrective_integration": {
+    "version": "2.0.1",
+    "baseline_version": "2.0.0",
+    "scientific_cpp_and_csv_change": "none",
+    "modules": "See original_cases/*/PROVENANCE.json and MANUSCRIPT_COVERAGE.json",
+    "baseline_reference_change": "none",
+    "queue_verifier_change": "Optional --output directory only; assertions unchanged",
+    "original_tables_analyzer_change": "One S3 report string clarifies historical unrecovered provenance versus separately validated new observer; no measurement or assertion logic changed."
+  }
 }

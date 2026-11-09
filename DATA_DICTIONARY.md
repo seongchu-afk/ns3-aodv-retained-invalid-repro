@@ -11,10 +11,12 @@
 - reference/TEMPORAL_EXTENDED.json: the full nested counterpart, including first relevant route, state lineage, overlap and reason-label counts.
 - analysis_data/*_runs/<case>/trace-events.csv: application send/receive events. flow=1 is the main flow.
 - trace-route-snapshots.csv: synchronous destination-scoped state; flags 0=VALID, 1=INVALID, 2=IN_SEARCH.
-- trace-control-events.csv: ordered physical/loopback IPv4 TX/RX records, packet identities and TTLs. interface=0 is local loopback in these fixtures.
+- trace-control-events.csv: ordered non-loopback/loopback IPv4 interface TX/RX records, packet identities and TTLs. interface=0 is local loopback in these fixtures.
 - trace-reason.csv: reason-labelled routing-handler observations; trace-graph.csv: geometric-path observations.
 - status.json in analysis_data: only config, version, run, exit_code and historical qualification_pass. For natural/combined cases the last field is an inapplicable historical artificial gate; use derived retained_invalid_qualified/concurrent_search_observed instead.
 - analysis_data/ENSEMBLE_COMPLETE.json: all 240 scientific per-run ensemble measurements. This permits statistical recalculation, not independent extraction of measurements from lower-level traces.
 - Generated return_evidence/<suite>/<case>.csv: strict matching TX/RX event pairs with original CSV line numbers, interfaces, timestamp/order, TTL and identity. The three unsafe temporal baseline cases have 32 returned main-flow identities each.
 
 `strict_source0_main_return_count` counts distinct source-0/main-flow sequences. `strict_any_observed_node_identity_count` counts node-plus-identity pairs, so the same packet returning to two nodes counts twice. `strict_matched_rx_event_count` counts RX events including repeats. Null/blank means inapplicable or unavailable, not zero.
+
+These IPv4 TX records do not by themselves establish emission of a DATA PPDU. Use the separate airtime/PPDU records for that observation.

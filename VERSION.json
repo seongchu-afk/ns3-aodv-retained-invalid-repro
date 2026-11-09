@@ -1,7 +1,7 @@
 {
-  "package_version": "2.0.0",
+  "package_version": "2.0.1",
   "scientific_analysis_version": "v2-strict-return",
   "ns3_version": "3.47",
-  "release_doi": "10.5281/zenodo.23827740",
-  "git_tag": "v2.0.0"
+  "release_doi": "10.5281/zenodo.24090944",
+  "git_tag": "v2.0.1"
 }

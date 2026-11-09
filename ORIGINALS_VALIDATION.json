@@ -1,0 +1,179 @@
+{
+  "version": "2.0.1",
+  "mode": "originals",
+  "pass": true,
+  "figure_entries": 6,
+  "table_entries": 7,
+  "narrative_entries": 2,
+  "coverage_kind": "Numerical and event evidence, not automatic publication-layout figure redraws",
+  "reports": {
+    "staged_table4": "staged_table4/analysis/ANALYSIS.json",
+    "retention_figures": "retention_figures/analysis/validation.json",
+    "valid_guard_control": "valid_guard_control/analysis/ANALYSIS.json",
+    "negative_chain": "negative_chain/negative_summary.json",
+    "original1_localization": "original1_localization/localization_summary.json",
+    "original_queue_observer": "original_queue_observer/NEW_QUEUE_OBSERVER_VALIDATION.json",
+    "original_tables": "original_tables/VALIDATION.json"
+  },
+  "items": [
+    {
+      "id": "F1",
+      "title": "Figure 1: retained INVALID mechanism",
+      "module": "original_tables",
+      "reference": "original_tables/reference/Table_S3_natural95_timeline.csv",
+      "scope": "Warm-up 40/40 for both; main task stock 0/95, INVALID-only 95/95.",
+      "minimum_numeric_workflow": "originals",
+      "status": "fresh_generated_evidence_checked",
+      "report": "original_tables/VALIDATION.json"
+    },
+    {
+      "id": "F2",
+      "title": "Figure 2: retention windows",
+      "module": "retention_figures",
+      "reference": "original_cases/retention_figures/expected/F2_timeline.csv",
+      "scope": "Six stock lifecycle histories; run 1 invalidates by RERR, runs 2 and 3 by expiry-triggered purge.",
+      "minimum_numeric_workflow": "analysis",
+      "status": "fresh_generated_evidence_checked",
+      "report": "retention_figures/analysis/validation.json"
+    },
+    {
+      "id": "F3",
+      "title": "Figure 3: retention matrix",
+      "module": "retention_figures",
+      "reference": "original_cases/retention_figures/expected/F3_matrix.csv",
+      "scope": "Four conditions \u00d7 three run indices \u00d7 two implementations = 24 original executions, not the 78 sensitivity executions.",
+      "minimum_numeric_workflow": "analysis",
+      "status": "fresh_generated_evidence_checked",
+      "report": "retention_figures/analysis/validation.json"
+    },
+    {
+      "id": "F4",
+      "title": "Figure 4: original six environments",
+      "module": "original_tables",
+      "reference": "original_tables/reference/Table_S4_six_environment_metrics.csv",
+      "scope": "Packet-set gain/loss/net and AODV PPDU-duration summaries. Complete original six-suite traces regenerate via originals.",
+      "minimum_numeric_workflow": "originals",
+      "status": "fresh_generated_evidence_checked",
+      "report": "original_tables/VALIDATION.json"
+    },
+    {
+      "id": "F5",
+      "title": "Figure 5: RWP3 negative chain",
+      "module": "negative_chain",
+      "reference": "original_cases/negative_chain/reference/negative_summary.json",
+      "scope": "79 stock-only flow-2 packets; 75 node-7 ARP drops, four remaining identities, sequence 208 and discrete neighbor-state samples. Documented selections from regenerated traces.",
+      "minimum_numeric_workflow": "analysis",
+      "status": "fresh_generated_evidence_checked",
+      "report": "negative_chain/negative_summary.json"
+    },
+    {
+      "id": "F6",
+      "title": "Figure 6: revised paired distributions",
+      "module": "revision",
+      "reference": "reference/ensemble_summary.csv",
+      "scope": "120 pairs from 240 recorded per-run measurements. Full mode regenerates the underlying traces.",
+      "minimum_numeric_workflow": "analysis",
+      "status": "reference_present_only",
+      "report": null
+    },
+    {
+      "id": "T1",
+      "title": "Table 1: configuration",
+      "module": "configuration",
+      "reference": "original_tables/reference/Table_S2_simulation_parameters.csv",
+      "scope": "Fixed radio, timer, traffic and RNG settings; reference/configuration evidence, not a simulated outcome.",
+      "minimum_numeric_workflow": "reference",
+      "status": "configuration_reference_present",
+      "report": null
+    },
+    {
+      "id": "T2",
+      "title": "Table 2: natural95 timeline",
+      "module": "original_tables",
+      "reference": "original_tables/reference/Table_S3_natural95_timeline.csv",
+      "scope": "Historical application/lifecycle/RREQ sources plus new queue supporting evidence. Historical additional direct queue source and raw trace remain unrecovered.",
+      "minimum_numeric_workflow": "originals",
+      "status": "fresh_generated_evidence_checked",
+      "report": "original_tables/VALIDATION.json"
+    },
+    {
+      "id": "T3",
+      "title": "Table 3: handler cases",
+      "module": "original_tables",
+      "reference": "original_tables/reference/Table_S1_handler_99_cases.csv",
+      "scope": "99 inputs per implementation, 198 calls. 17 changed outcomes, all INVALID with same next hop.",
+      "minimum_numeric_workflow": "originals",
+      "status": "fresh_generated_evidence_checked",
+      "report": "original_tables/VALIDATION.json"
+    },
+    {
+      "id": "T4",
+      "title": "Table 4: original staged temporal",
+      "module": "staged_table4",
+      "reference": "original_cases/staged_table4/reference/Table4_expected.csv",
+      "scope": "Twelve L/E/E2/P executions across three variants. P/no-guard has four strict returns; E stays unqualified. Not the 108-case extended suite.",
+      "minimum_numeric_workflow": "analysis",
+      "status": "fresh_generated_evidence_checked",
+      "report": "staged_table4/analysis/ANALYSIS.json"
+    },
+    {
+      "id": "T5",
+      "title": "Table 5: sensitivity",
+      "module": "revision",
+      "reference": "reference/counterexample_summary.csv",
+      "scope": "78 natural sensitivity executions; the six retention=5 s cases remain negative controls.",
+      "minimum_numeric_workflow": "analysis",
+      "status": "reference_present_only",
+      "report": null
+    },
+    {
+      "id": "T6",
+      "title": "Table 6: original six environments",
+      "module": "original_tables",
+      "reference": "original_tables/reference/Table_S4_six_environment_metrics.csv",
+      "scope": "5985 application attempts per execution; AODV cost is summed PPDU durations in [60,180) s, not channel busy time.",
+      "minimum_numeric_workflow": "originals",
+      "status": "fresh_generated_evidence_checked",
+      "report": "original_tables/VALIDATION.json"
+    },
+    {
+      "id": "T7",
+      "title": "Table 7: revised paired results",
+      "module": "revision",
+      "reference": "reference/paired_runs.csv",
+      "scope": "Six environments \u00d720 whole-run pairs; descriptive 95% t intervals use df=19.",
+      "minimum_numeric_workflow": "analysis",
+      "status": "reference_present_only",
+      "report": null
+    },
+    {
+      "id": "N_VALID",
+      "title": "Narrative: wireless VALID control",
+      "module": "valid_guard_control",
+      "reference": "original_cases/valid_guard_control/expected/summary.json",
+      "scope": "One qualified corrected 18.05 s wireless injection and its preceding unqualified 18 s fixture, not two independent successful controls.",
+      "minimum_numeric_workflow": "analysis",
+      "status": "fresh_generated_evidence_checked",
+      "report": "valid_guard_control/analysis/ANALYSIS.json"
+    },
+    {
+      "id": "N_ORIGINAL1",
+      "title": "Narrative: original1 localization",
+      "module": "original1_localization",
+      "reference": "original_cases/original1_localization/reference/localization_summary.json",
+      "scope": "5854\u21925941 overall; 1099\u21921187 target flow; 7\u219299 among the same 100 packets generated in [106,116) s and observed through 210 s.",
+      "minimum_numeric_workflow": "analysis",
+      "status": "fresh_generated_evidence_checked",
+      "report": "original1_localization/localization_summary.json"
+    }
+  ],
+  "fresh_revision_435_simulations": false,
+  "fresh_original_simulations": true,
+  "historical_queue_observer_recovered": false,
+  "new_queue_observer_evidence_checked": true,
+  "limitations": [
+    "Reference presence is not a fresh simulation result.",
+    "No publication-layout figure redraw is claimed.",
+    "Historical direct queue source and trace remain unrecovered."
+  ]
+}
