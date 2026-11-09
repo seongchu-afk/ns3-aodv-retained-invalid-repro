@@ -1,0 +1,75 @@
+scope,parameter,value,unit,source,note
+AODV; all network fixtures unless stated,HelloInterval,1,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,AllowedHelloLoss,2,messages,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,ActiveRouteTimeout,3,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,DeletePeriod,15,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,NodeTraversalTime,0.04,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,NetDiameter,35,hops,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,NetTraversalTime,2.8,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,PathDiscoveryTime,5.6,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,MyRouteTimeout,11.2,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,NextHopWait,0.05,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,BlackListTimeout,5.6,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,TtlStart,1,hops,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,TtlIncrement,2,hops,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,TtlThreshold,7,hops,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,TimeoutBuffer,2,hop-time units,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,RreqRetries,2,full-diameter attempts,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,RreqRateLimit,10,requests/s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,RerrRateLimit,10,errors/s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,MaxQueueLen,64,packets,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,MaxQueueTime,30,s,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,DestinationOnly,false,Boolean,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+AODV; all network fixtures unless stated,GratuitousReply,true,Boolean,round9_manet_baseline/ns-3.47/src/aodv/model/aodv-routing-protocol.cc,Unmodified ns-3.47 TypeId default; source overrides checked
+network fixtures,RNG seed,20261030,integer,round15_invalid_guard/observer.cc; round15_invalid_guard/run.py; round16_invalid_retention/run.py; round17_scope_impact/run.py; round19_temporal_safety/run.py,
+network fixtures,Wi-Fi stream start,1000,stream ID,round15_invalid_guard/observer.cc; round15_invalid_guard/run.py; round16_invalid_retention/run.py; round17_scope_impact/run.py; round19_temporal_safety/run.py,
+network fixtures,AODV stream start,2000,stream ID,round15_invalid_guard/observer.cc; round15_invalid_guard/run.py; round16_invalid_retention/run.py; round17_scope_impact/run.py; round19_temporal_safety/run.py,
+network fixtures,application datagram,512,bytes,round15_invalid_guard/observer.cc; round15_invalid_guard/run.py; round16_invalid_retention/run.py; round17_scope_impact/run.py; round19_temporal_safety/run.py,
+network fixtures,sequence/timestamp header,12,bytes,round15_invalid_guard/observer.cc; round15_invalid_guard/run.py; round16_invalid_retention/run.py; round17_scope_impact/run.py; round19_temporal_safety/run.py,
+network fixtures,useful payload,500,bytes,round15_invalid_guard/observer.cc; round15_invalid_guard/run.py; round16_invalid_retention/run.py; round17_scope_impact/run.py; round19_temporal_safety/run.py,
+network fixtures,packet interval,0.1,s,round15_invalid_guard/observer.cc; round15_invalid_guard/run.py; round16_invalid_retention/run.py; round17_scope_impact/run.py; round19_temporal_safety/run.py,
+network fixtures,ARP DeadTimeout,3,s,round15_invalid_guard/observer.cc; round15_invalid_guard/run.py; round16_invalid_retention/run.py; round17_scope_impact/run.py; round19_temporal_safety/run.py,"ARP override is 3 s in recorded command, not observer default 100 s"
+network fixtures,Wi-Fi standard,802.11g,,round15_invalid_guard/observer.cc,
+network fixtures,MAC,AdhocWifiMac; QoS disabled,,round15_invalid_guard/observer.cc,
+network fixtures,data/control/non-unicast rate,ErpOfdmRate6Mbps,,round15_invalid_guard/observer.cc,
+network fixtures,channel,1; 20 MHz; 2.4 GHz,,round15_invalid_guard/observer.cc,
+network fixtures,transmit power,16,dBm,round15_invalid_guard/observer.cc,
+network fixtures,propagation delay,ConstantSpeedPropagationDelayModel,,round15_invalid_guard/observer.cc,
+network fixtures,path loss,LogDistancePropagationLossModel,,round15_invalid_guard/observer.cc,
+network fixtures,path-loss exponent,3,,round15_invalid_guard/observer.cc,
+network fixtures,reference distance,1,m,round15_invalid_guard/observer.cc,
+network fixtures,reference loss,40.0953292912456,dB,round15_invalid_guard/observer.cc,
+network fixtures,geometric threshold,-88,dBm,round15_invalid_guard/observer.cc,"Geometry is an observational proxy, not a packet-delivery oracle"
+network fixtures,graph sampling,0.5,s,round15_invalid_guard/observer.cc,
+natural counterexample/L,node count,4,nodes,round15_invalid_guard/observer.cc,
+natural counterexample/L,warm-up interval,5.0--8.9,s (40 sends),round15_invalid_guard/runs/natural_old-events.csv,
+natural counterexample/L,main interval,18.5--27.9,s (95 sends),round15_invalid_guard/runs/natural_old-events.csv,
+natural counterexample/L,stop,45,s,round15_invalid_guard/observer.cc,
+retention controls,main packets,4,packets per simulation,round16_invalid_retention/observer.cc,
+retention controls,main start,18.5; after_delete 35.5,s,round16_invalid_retention/run.py,
+retention controls,run IDs,"1,2,3",fixed RNG seed shared,round16_invalid_retention/run.py,
+retention controls,stop,60,s,round16_invalid_retention/observer.cc,
+six 25-node environments,node count,25,nodes,round15_invalid_guard/observer.cc,
+six 25-node environments,flow pairs,0->24;4->24;5->19;9->15;10->12,zero-based nodes,round15_invalid_guard/observer.cc,
+six 25-node environments,flow start,60 + 0.17*i,s; i=0..4,round15_invalid_guard/observer.cc,
+six 25-node environments,application stop,180,s; exclusive,round15_invalid_guard/observer.cc,
+six 25-node environments,simulation stop,210,s,round15_invalid_guard/observer.cc,
+six 25-node environments,planned packets,5985,packets per environment and variant,round17_scope_impact/SUMMARY.json,
+original-jitter environments,initial grid,5 by 5; spacing 70,m,round9_manet_baseline/FROZEN_PILOT.json,
+original-jitter environments,waypoint jitter,independent +/-12 every 10,m; s,round9_manet_baseline/FROZEN_PILOT.json,
+RWP environments,domain,280 by 280,m,round11_continuous_channel/FROZEN_CONFIRMATION.json,
+RWP environments,speed,"uniform [1,3]",m/s,round11_continuous_channel/FROZEN_CONFIRMATION.json,
+RWP environments,pause,2,s,round11_continuous_channel/FROZEN_CONFIRMATION.json,
+RWP environments,burn-in,1000,s,round11_continuous_channel/FROZEN_CONFIRMATION.json,
+RWP environments,generation RNG,Python random.Random(20261030+run*10000); sequential 25 nodes,,round11_continuous_channel/FROZEN_CONFIRMATION.json,
+RWP environments,trajectory extraction,"[1000,1210]",s; shifted to simulation origin; not exact-stationarity guarantee,round11_continuous_channel/FROZEN_CONFIRMATION.json,
+temporal safety L/E/E2/P,EnableHello,L=true;E=false;E2=true;P=false,Boolean,round19_temporal_safety/run.py; round19_temporal_safety/run_expiry.py,
+temporal safety E2,main start,28.5,s;4 packets,round19_temporal_safety/run_expiry.py,
+temporal safety P,main start,9.15,s;4 packets,round19_temporal_safety/run.py,
+temporal safety P,controlled perturbation,9.1,s,round19_temporal_safety/observer.cc,
+temporal safety P,stop,25,s,round19_temporal_safety/observer.cc,
+software,ns-3 release,3.47,,round9_manet_baseline/ns-3.47/VERSION,
+software,original compiler,GNU 14.2.0,,round9_manet_baseline/ns-3.47/cmake-cache/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake,
+software,original CMake,3.31.6,,round9_manet_baseline/IMPLEMENTATION_NOTES.md,
+software,C++ standard,C++23,,round19_temporal_safety/BUILD_COMMANDS.json,
+software,profile,optimized; -O3 -DNDEBUG -march=native -mtune=native,,round19_temporal_safety/BUILD_COMMANDS.json,

@@ -1,0 +1,12 @@
+start_s,end_s,event,detail,evidence_type,source
+5,8.9,warm-up,"B to D: 40 application packets, all delivered",direct application trace,round15_invalid_guard/runs/natural_old-events.csv
+12.056376466,,B invalidates destination route,RERR invalidation; cached next hop S; sequence known 0; 15 s retention,direct lifecycle trace,round19_temporal_safety/runs/L-stock-lifecycle.csv
+18.5,27.9,main task,S to D: 95 packets at 0.1 s intervals; stock receives 0,direct application trace,round15_invalid_guard/runs/natural_old-events.csv
+18.5,22.981,five stock RREQ transmissions,"TTL 3,5,7,35,35; every request is blocked at B while B route is INVALID",direct control and branch trace,natural95_rreq_attempts.csv
+18.514531029,27.902664699,INVALID-only deliveries,all 95 application packets received,direct application trace,round15_invalid_guard/runs/natural_patch-events.csv
+24.9,27.9,31 stock queue evictions,64-entry FIFO: sequence 64 onward evicts sequences 0--30; per-second counts match IPv4 route errors,direct queue events in additional clean-source stock run; original per-second error counts agree,natural95_queue_observed.csv; natural95_drop_accounting.csv
+27.056376466,,B retention deadline,invalidation time plus DeletePeriod=15 s; expiration does not itself remove table entry,source arithmetic; route expiry snapshot,round19_temporal_safety/runs/L-stock-route-snapshots.csv
+27.073192233,,B deletes retained INVALID entry,lazy Purge removes expired route; S remains IN_SEARCH,direct lifecycle and state trace,round19_temporal_safety/runs/L-stock-lifecycle.csv; round19_temporal_safety/runs/L-stock-route-snapshots.csv
+27.9,,last application packet,application stops before final source retry timer; no later packet triggers a new search,direct trace plus Send scheduling source,round15_invalid_guard/runs/natural_old-events.csv; round15_invalid_guard/observer.cc
+28.58,,source discovery terminates,S destination entry becomes absent; remaining 64 packets dropped after retry exhaustion,route absence in original detailed trace; 64 direct queue drops at 28.58 s in additional clean-source stock run,round19_temporal_safety/runs/L-stock-route-snapshots.csv; natural95_queue_observed.csv
+45,,observation ends,no main-task application deliveries for stock; does not assert permanent network unreachability,simulation stop source plus complete application trace,round15_invalid_guard/observer.cc; round15_invalid_guard/runs/natural_old-events.csv
