@@ -1,0 +1,169 @@
+{
+  "scope": "Original manuscript S1-S4; separate from major-revision v2.",
+  "files": [
+    {
+      "path": "sources/handler/unit.cc",
+      "source": "prior_evidence/round18_branch_unit/unit.cc",
+      "sha256": "5a10002d618a27202fcf1408f9dd80d1573e19c56d08314c7945e468dbdeb0b4",
+      "changes": "none"
+    },
+    {
+      "path": "sources/handler/stock-routing.cc",
+      "source": "prior_evidence/round18_branch_unit/stock-routing.cc",
+      "sha256": "4239a64c80d5ab4dac7e2af3a74f28d2224e52c972e6996676df92b96c0c28f5",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "fcafda2ca3995c4ec4f5e007f4a23c53369f29773557583c2b46379d9c2f21f3"
+    },
+    {
+      "path": "sources/handler/patch-routing.cc",
+      "source": "prior_evidence/round18_branch_unit/patch-routing.cc",
+      "sha256": "33e40919c31ee8e0aca6b561b736f6a50de17aa67c9d9c998f9ecd50b4a92fe6",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "a66f4624ce1c76d0f6915531da24f4665583ff9b88eaae1ddc0c2b3e47948632"
+    },
+    {
+      "path": "sources/handler/aodv-routing-protocol.h",
+      "source": "prior_evidence/round18_branch_unit/aodv-routing-protocol.h",
+      "sha256": "13ecf854baedf1305673b924904632bda7b00d7dc97a888198bb30f451e97cbc",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "d4b2ffc45b1ef798570cec58848b89b5b864eabb0fb8f34a4819edd7d3f7f8cc"
+    },
+    {
+      "path": "sources/handler/aodv-rtable.h",
+      "source": "prior_evidence/round18_branch_unit/aodv-rtable.h",
+      "sha256": "9f73e069727d3d19730a863cabe898f0c05e607673d016d6c04faa51f309659e",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "739bd31faf998a7013a9a6663c583ea022dd132008e159065c18ff5923f0d8a5"
+    },
+    {
+      "path": "sources/natural95/observer.cc",
+      "source": "prior_evidence/round19_temporal_safety/observer.cc",
+      "sha256": "a8c19295b941bbbd098aa7ca7c512405cb55bda3c0f14b8822fa98ff71eaab34",
+      "changes": "none"
+    },
+    {
+      "path": "sources/natural95/stock-routing.cc",
+      "source": "prior_evidence/round19_temporal_safety/stock-routing.cc",
+      "sha256": "cbe2f5b969026b1095aa18cea70e7f792dda45e87ae339b6e876da6c883e17c2",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "5c206729ef5a21bd156b488a56023c66235ec325e158a3cad63a85d91b2113f1"
+    },
+    {
+      "path": "sources/natural95/patch-routing.cc",
+      "source": "prior_evidence/round19_temporal_safety/patch-routing.cc",
+      "sha256": "c566c2a544a4f54103b39d4a54f875a8f66e87907b06921dd70417a7a836070e",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "d159cd6bf65686a2ce8182c5f6a7c7b2475291adf5d1ba60a31a0efa4125cd0d"
+    },
+    {
+      "path": "sources/natural95/lifecycle-rtable.cc",
+      "source": "prior_evidence/round19_temporal_safety/lifecycle-rtable.cc",
+      "sha256": "4bcc95704821eb371da04f02efb7ebdbb2df53476505aafc4c9ed4862ad1a7b9",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "c36a465d1fbb67f3dbbb064604b3befb06a38ff4307049ceec2cf0c9cac920e6"
+    },
+    {
+      "path": "sources/natural95/aodv-routing-protocol.h",
+      "source": "prior_evidence/round19_temporal_safety/aodv-routing-protocol.h",
+      "sha256": "13ecf854baedf1305673b924904632bda7b00d7dc97a888198bb30f451e97cbc",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "d4b2ffc45b1ef798570cec58848b89b5b864eabb0fb8f34a4819edd7d3f7f8cc"
+    },
+    {
+      "path": "sources/natural95/aodv-rtable.h",
+      "source": "prior_evidence/round19_temporal_safety/aodv-rtable.h",
+      "sha256": "9f73e069727d3d19730a863cabe898f0c05e607673d016d6c04faa51f309659e",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "739bd31faf998a7013a9a6663c583ea022dd132008e159065c18ff5923f0d8a5"
+    },
+    {
+      "path": "sources/natural95/natural.csv",
+      "source": "prior_evidence/round19_temporal_safety/natural.csv",
+      "sha256": "9ac7eade8e8b7499dca6572f3ffa3c23f4af4d58e759ecac6ad3557812dab2af",
+      "changes": "none"
+    },
+    {
+      "path": "sources/six/observer.cc",
+      "source": "prior_evidence/round15_invalid_guard/observer.cc",
+      "sha256": "e951c6bcf7e688cb501531845c75802e3a2c11c3a787da35731ce9b1086d495d",
+      "changes": "none"
+    },
+    {
+      "path": "sources/six/stock-routing.cc",
+      "source": "prior_evidence/round14_aodv_reason/instrumented_aodv-routing-protocol.cc",
+      "sha256": "be48f9fa6d6347b77a753bf8c3b116d3ab87f96ab48e79ebc49544085c388131",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "44196e197fe94f777eee521779fb4ac59f4bd1329a0a94b5754a14992947d2e5"
+    },
+    {
+      "path": "sources/six/patch-routing.cc",
+      "source": "prior_evidence/round15_invalid_guard/patched_aodv-routing-protocol.cc",
+      "sha256": "e4086a319ea0415cfc34fc34949fc923b0099071d9a52d4d1c169fa2dc8a8049",
+      "changes": "Prepend the dated, comment-only GPL modification notice; all prior bytes preserved exactly.",
+      "source_sha256": "694d046abe5c2b2c9d01a74a144dff34afda06d2ee88e8f9122679179d765a21"
+    },
+    {
+      "path": "mobility/original1.csv",
+      "source": "recovered_early/round9_manet_baseline/mobility/mobile-1.csv",
+      "sha256": "495b20a43b99759f87831308e8fcfd0ab375dcab931d7ea53770cb29494a0209",
+      "changes": "none"
+    },
+    {
+      "path": "mobility/original2.csv",
+      "source": "recovered_early/round9_manet_baseline/mobility/mobile-2.csv",
+      "sha256": "a6f898b6ad5b8bad1b28021a25849a3c44ccfd98c2f776137133eae5adc719e0",
+      "changes": "none"
+    },
+    {
+      "path": "mobility/original3.csv",
+      "source": "recovered_early/round9_manet_baseline/mobility/mobile-3.csv",
+      "sha256": "545066bf8388b81ab90af11b6760614f61fb6b7976d774ca4a8df65691821f0d",
+      "changes": "none"
+    },
+    {
+      "path": "mobility/rwp1.csv",
+      "source": "recovered_early/round11_continuous_channel/mobility/rwp-1.csv",
+      "sha256": "3e5bd155a0f6255339ee01fee74d2f2294e650d5f2caa6afb2f8ec06441f6f83",
+      "changes": "none"
+    },
+    {
+      "path": "mobility/rwp2.csv",
+      "source": "recovered_early/round11_continuous_channel/mobility/rwp-2.csv",
+      "sha256": "b30990dcfa661cc7f5b8c0cffb74013720000608b30e20bcd5619243fe637af4",
+      "changes": "none"
+    },
+    {
+      "path": "mobility/rwp3.csv",
+      "source": "recovered_early/round11_continuous_channel/mobility/rwp-3.csv",
+      "sha256": "a767424562c8fcca12d86190b36ec623fa42a220f5df1c8fcd8846411e6fdd25",
+      "changes": "none"
+    },
+    {
+      "path": "reference/Table_S1_handler_99_cases.csv",
+      "source": "manuscript-supplementary.zip/Supplementary_Tables/Table_S1_handler_99_cases.csv",
+      "sha256": "4b6942fc311ac1f8913c583ec1d079439bbcef674cf2dd07814cffc6d3b20fb2",
+      "changes": "none"
+    },
+    {
+      "path": "reference/Table_S2_simulation_parameters.csv",
+      "source": "manuscript-supplementary.zip/Supplementary_Tables/Table_S2_simulation_parameters.csv",
+      "sha256": "8bc112768b15367d6bcc5b210f438248cb6c2f4d301fd017a1c8c20eda444389",
+      "changes": "none"
+    },
+    {
+      "path": "reference/Table_S3_natural95_timeline.csv",
+      "source": "manuscript-supplementary.zip/Supplementary_Tables/Table_S3_natural95_timeline.csv",
+      "sha256": "03f165ea24badc3ed1f282b20fe0ff30175f84f765ad678d50a1b8c4205895ce",
+      "changes": "none"
+    },
+    {
+      "path": "reference/Table_S4_six_environment_metrics.csv",
+      "source": "manuscript-supplementary.zip/Supplementary_Tables/Table_S4_six_environment_metrics.csv",
+      "sha256": "1c4f1599256dddad1dc88725dfbc5bfad807ccabb1bbd87224e4e15e6b83ffee",
+      "changes": "none"
+    }
+  ],
+  "new_files": "build.py, run.py, analyze.py and README.md are new portable orchestration/documentation. supplementary_observer contains a new optional observer, not recovered original supplementary instrumentation.",
+  "missing_original_evidence": "S3 original additional direct queue-observer source and natural95_queue_observed.csv were not recovered.",
+  "release_modification_notices": "Version 2.0.0 adds comment-only dated GPL notices to modified upstream-derived source files. Executable scientific content is preserved. See MODIFICATIONS.md."
+}
