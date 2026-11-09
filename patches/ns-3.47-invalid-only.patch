@@ -1,0 +1,11 @@
+--- a/src/aodv/model/aodv-routing-protocol.cc
++++ b/src/aodv/model/aodv-routing-protocol.cc
+@@ -1451,7 +1451,7 @@
+         /*
+          * Drop RREQ, This node RREP will make a loop.
+          */
+-        if (toDst.GetNextHop() == src)
++        if (toDst.GetNextHop() == src && toDst.GetFlag() != INVALID)
+         {
+             NS_LOG_DEBUG("Drop RREQ from " << src << ", dest next hop " << toDst.GetNextHop());
+             return;
