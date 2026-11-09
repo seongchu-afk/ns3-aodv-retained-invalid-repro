@@ -1,0 +1,7 @@
+time,node,previous_ip,origin,request_id,destination,hop,reason,route_flag,next_hop,route_lifetime,valid_sequence,route_sequence,route_hops
+106.579200195,3,10.1.1.5,10.1.1.5,4,10.1.1.25,1,loop_guard_next_hop_equals_sender,1,10.1.1.5,9.939392525,1,0,7
+106.588400442,8,10.1.1.10,10.1.1.5,4,10.1.1.25,2,loop_guard_next_hop_equals_sender,1,10.1.1.10,9.954264278,1,0,6
+107.372200194,3,10.1.1.5,10.1.1.5,5,10.1.1.25,1,loop_guard_next_hop_equals_sender,1,10.1.1.5,9.146392526,1,0,7
+107.375400438,8,10.1.1.10,10.1.1.5,5,10.1.1.25,2,loop_guard_next_hop_equals_sender,1,10.1.1.10,9.167264282,1,0,6
+110.173200195,3,10.1.1.5,10.1.1.5,6,10.1.1.25,1,loop_guard_next_hop_equals_sender,1,10.1.1.5,6.345392525,1,0,7
+110.183400426,8,10.1.1.10,10.1.1.5,6,10.1.1.25,2,loop_guard_next_hop_equals_sender,1,10.1.1.10,6.359264294,1,0,6

@@ -1,0 +1,38 @@
+{
+  "example": "Original 1 localization",
+  "all_flows_planned": 5985,
+  "all_flows_stock_received": 5854,
+  "all_flows_patch_received": 5941,
+  "all_flows_gained": 99,
+  "all_flows_lost": 12,
+  "all_flows_net": 87,
+  "target_flow": 1,
+  "target_source_node": 4,
+  "target_destination_node": 24,
+  "target_planned": 1199,
+  "target_stock_received": 1099,
+  "target_patch_received": 1187,
+  "target_gained": 93,
+  "target_lost": 5,
+  "target_net": 88,
+  "generation_window_s": [
+    106,
+    116
+  ],
+  "generation_cohort_size": 100,
+  "generation_cohort_first_sequence": 459,
+  "generation_cohort_last_sequence": 558,
+  "observation_end_s": 210,
+  "generation_cohort_received_by_end": {
+    "stock": 7,
+    "patch": 99
+  },
+  "reception_clock_window_counts_not_the_reported_cohort": {
+    "stock": 4,
+    "patch": 99
+  },
+  "fourth_source_rreq_time_s": 106.579,
+  "node3_guard_time_s": 106.579200195,
+  "node3_invalid_retention_remaining_s": 9.939392525,
+  "interpretation": "The reported 7/99 compares final delivery of the same 100 packets generated in [106,116) s. It is not a count of receptions whose timestamps lie in that interval. Guard records expose the local mechanism; later network-wide gains/losses are not all attributed to that single event."
+}
