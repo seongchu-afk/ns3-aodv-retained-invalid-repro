@@ -1,0 +1,60 @@
+{
+  "version": "2.0.1",
+  "files": [
+    {
+      "path": "FILE_LIST.txt",
+      "bytes": 260,
+      "sha256": "561985bd71786527b3a0472e8e2b9516025a4c1237d61c1d367b9850ae5b6e2d"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 687,
+      "sha256": "3a6d7a2d7fd0fa63fb777d0bb540747b01794a54649db1bfc7531fb2f4617826"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2985,
+      "sha256": "8b69fa2a86e021227dab65d57c431d2616ae80d356ab7577eca4932d02e5c6b9"
+    },
+    {
+      "path": "SHA256SUMS",
+      "bytes": 909,
+      "sha256": "bccfa4f5cc8570b3125602d4009b7257182cf7dc67bd21397c8b17425210f891"
+    },
+    {
+      "path": "analyze_negative.py",
+      "bytes": 5941,
+      "sha256": "8df16f100014a59ac789234c88fea32d6caa56c55e8ea7fa91b7854cbbf4d2d5"
+    },
+    {
+      "path": "reference/lost_packet_ledger.csv",
+      "bytes": 3439,
+      "sha256": "e5b3fde6ec33d6c56fc119bc571b069a7a3aa25dc4687737fc49519d79d95abf"
+    },
+    {
+      "path": "reference/negative_summary.json",
+      "bytes": 2430,
+      "sha256": "6b4a257982d7a22e16fb83915d3d3579558c99161dd9a55c484773ba47bd8885"
+    },
+    {
+      "path": "reference/neighbor_state_samples.csv",
+      "bytes": 276,
+      "sha256": "c2761082cb1f56d74c84cb98c651b44376dc74d897f8608750a165d9c645eb48"
+    },
+    {
+      "path": "reference/sequence208_airtime.csv",
+      "bytes": 670,
+      "sha256": "5706522420b514e55b9a8f65b0e332cb256984a1d653118217622aa98a31e652"
+    },
+    {
+      "path": "reference/sequence208_ip_events.csv",
+      "bytes": 2048,
+      "sha256": "abb56c94493e874fcf56db8de6f1e586156ebb934dd01ed07a06fd027ea4fb59"
+    },
+    {
+      "path": "select_inputs.py",
+      "bytes": 2481,
+      "sha256": "906fb9d24c0135a0e7eb81cf87aa9eec0f47bb511c298cec30474db3bf432921"
+    }
+  ]
+}

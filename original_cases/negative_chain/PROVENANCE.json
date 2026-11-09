@@ -1,0 +1,8 @@
+{
+  "scope": "New portable analysis and deterministic minimal selections for the original Figure 5. Existing scientific simulator source remains in original_tables/sources/six.",
+  "source_observer_sha256": "e951c6bcf7e688cb501531845c75802e3a2c11c3a787da35731ce9b1086d495d",
+  "source_mobility_sha256": "a767424562c8fcca12d86190b36ec623fa42a220f5df1c8fcd8846411e6fdd25",
+  "validation": "Full clean-base original six-environment traces and selected inputs both reproduce all five reference files exactly. No new simulation is counted here; the traces come from the previously recorded fresh original S4 rerun.",
+  "code_license": "GPL-2.0-only",
+  "data_and_docs_license": "CC-BY-4.0"
+}
